@@ -1,0 +1,4296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddue="urn:ddue-extensions">
+  <assemblies>
+    <assembly name="Cosmetics">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:Cosmetics">
+      <topicdata group="api" />
+      <apidata name="Cosmetics" group="namespace" />
+      <elements>
+        <element api="T:Cosmetics.CosmeticsProgram" />
+      </elements>
+      <file name="41b5768d-5d3a-4a80-3e1d-e60bbb3079dc" />
+    </api>
+    <api id="T:Cosmetics.CosmeticsProgram">
+      <topicdata group="api" />
+      <apidata name="CosmeticsProgram" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.CosmeticsProgram.#ctor" />
+        <element api="M:Cosmetics.CosmeticsProgram.Main" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics" />
+      </containers>
+      <file name="dea9b560-8c43-3ff7-4269-9a6a3692d7b5" />
+    </api>
+    <api id="Methods.T:Cosmetics.CosmeticsProgram">
+      <topicdata name="CosmeticsProgram" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.CosmeticsProgram" />
+      <apidata name="CosmeticsProgram" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.CosmeticsProgram.Main" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics" />
+        <type api="T:Cosmetics.CosmeticsProgram" />
+      </containers>
+      <file name="b9a3c322-636b-fabe-9e4e-6f0b33b7abb5" />
+    </api>
+    <api id="M:Cosmetics.CosmeticsProgram.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics" />
+        <type api="T:Cosmetics.CosmeticsProgram" ref="true" />
+      </containers>
+      <file name="ff7d028c-0142-a45e-ba0d-562c1c72de95" />
+    </api>
+    <api id="M:Cosmetics.CosmeticsProgram.Main">
+      <topicdata group="api" />
+      <apidata name="Main" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics" />
+        <type api="T:Cosmetics.CosmeticsProgram" ref="true" />
+      </containers>
+      <file name="a9468c39-42a5-a56f-5890-2fcf618d1cf4" />
+    </api>
+    <api id="N:Cosmetics.Common">
+      <topicdata group="api" />
+      <apidata name="Cosmetics.Common" group="namespace" />
+      <elements>
+        <element api="T:Cosmetics.Common.GenderType" />
+        <element api="T:Cosmetics.Common.GlobalErrorMessages" />
+        <element api="T:Cosmetics.Common.UsageType" />
+        <element api="T:Cosmetics.Common.Validator" />
+      </elements>
+      <file name="4362c1f4-2b9b-c0c4-6357-ceb8ceb0b071" />
+    </api>
+    <api id="T:Cosmetics.Common.GenderType">
+      <topicdata group="api" />
+      <apidata name="GenderType" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:Cosmetics.Common.GenderType.Men" />
+        <element api="F:Cosmetics.Common.GenderType.Women" />
+        <element api="F:Cosmetics.Common.GenderType.Unisex" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+      </containers>
+      <file name="cb92992d-031f-9f4a-eebe-5d14dbc7e104" />
+    </api>
+    <api id="F:Cosmetics.Common.GenderType.Men">
+      <topicdata group="api" notopic="" />
+      <apidata name="Men" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </containers>
+      <file name="c6f7f3f9-1b73-680b-8518-8e854afca60d" />
+    </api>
+    <api id="F:Cosmetics.Common.GenderType.Unisex">
+      <topicdata group="api" notopic="" />
+      <apidata name="Unisex" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </containers>
+      <file name="4c2552c6-4e13-66bf-4123-c1ee03f59466" />
+    </api>
+    <api id="F:Cosmetics.Common.GenderType.Women">
+      <topicdata group="api" notopic="" />
+      <apidata name="Women" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </containers>
+      <file name="d82bfe86-b625-9a89-6987-5c8fad841b32" />
+    </api>
+    <api id="T:Cosmetics.Common.GlobalErrorMessages">
+      <topicdata group="api" />
+      <apidata name="GlobalErrorMessages" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Common.GlobalErrorMessages.#ctor" />
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.InvalidStringLength" />
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.ObjectCannotBeNull" />
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.StringCannotBeNullOrEmpty" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+      </containers>
+      <file name="0a1721cf-c48c-1368-72b4-249bab955490" />
+    </api>
+    <api id="Methods.T:Cosmetics.Common.GlobalErrorMessages">
+      <topicdata name="GlobalErrorMessages" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Common.GlobalErrorMessages" />
+      <apidata name="GlobalErrorMessages" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" />
+      </containers>
+      <file name="78b23afa-cece-822e-c4ed-4f1ca36620c0" />
+    </api>
+    <api id="Fields.T:Cosmetics.Common.GlobalErrorMessages">
+      <topicdata name="GlobalErrorMessages" group="list" subgroup="Fields" typeTopicId="T:Cosmetics.Common.GlobalErrorMessages" />
+      <apidata name="GlobalErrorMessages" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.InvalidStringLength" />
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.ObjectCannotBeNull" />
+        <element api="F:Cosmetics.Common.GlobalErrorMessages.StringCannotBeNullOrEmpty" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" />
+      </containers>
+      <file name="206b14da-8ffb-3b73-7c2b-a5981d6e519e" />
+    </api>
+    <api id="M:Cosmetics.Common.GlobalErrorMessages.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" ref="true" />
+      </containers>
+      <file name="ba5694cc-b704-ffdf-f0ca-04c433f83482" />
+    </api>
+    <api id="F:Cosmetics.Common.GlobalErrorMessages.InvalidStringLength">
+      <topicdata group="api" />
+      <apidata name="InvalidStringLength" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <value>{0} must be between {1} and {2} symbols long!</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" ref="true" />
+      </containers>
+      <file name="eccdcce5-21ec-9aa9-7faa-4babba058902" />
+    </api>
+    <api id="F:Cosmetics.Common.GlobalErrorMessages.ObjectCannotBeNull">
+      <topicdata group="api" />
+      <apidata name="ObjectCannotBeNull" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <value>{0} cannot be null!</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" ref="true" />
+      </containers>
+      <file name="60c5d041-8e34-33fc-28b8-ffca3736ab31" />
+    </api>
+    <api id="F:Cosmetics.Common.GlobalErrorMessages.StringCannotBeNullOrEmpty">
+      <topicdata group="api" />
+      <apidata name="StringCannotBeNullOrEmpty" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <value>{0} cannot be null or empty!</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.GlobalErrorMessages" ref="true" />
+      </containers>
+      <file name="ade671eb-6016-acd0-5a99-693a3c13c4c3" />
+    </api>
+    <api id="T:Cosmetics.Common.UsageType">
+      <topicdata group="api" />
+      <apidata name="UsageType" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:Cosmetics.Common.UsageType.EveryDay" />
+        <element api="F:Cosmetics.Common.UsageType.Medical" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+      </containers>
+      <file name="e588ec8e-e94b-534d-b625-e568c4895a5d" />
+    </api>
+    <api id="F:Cosmetics.Common.UsageType.EveryDay">
+      <topicdata group="api" notopic="" />
+      <apidata name="EveryDay" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </containers>
+      <file name="3f27bbb6-4585-99c5-9ee9-a36634e42784" />
+    </api>
+    <api id="F:Cosmetics.Common.UsageType.Medical">
+      <topicdata group="api" notopic="" />
+      <apidata name="Medical" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </containers>
+      <file name="84ba7998-51a0-76eb-e77e-db837ace1ca1" />
+    </api>
+    <api id="T:Cosmetics.Common.Validator">
+      <topicdata group="api" />
+      <apidata name="Validator" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:Cosmetics.Common.Validator.CheckIfNull(System.Object,System.String)" />
+        <element api="M:Cosmetics.Common.Validator.CheckIfStringIsNullOrEmpty(System.String,System.String)" />
+        <element api="M:Cosmetics.Common.Validator.CheckIfStringLengthIsValid(System.String,System.Int32,System.Int32,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+      </containers>
+      <file name="6dc56332-7a6b-7d66-9681-de0588daf971" />
+    </api>
+    <api id="Methods.T:Cosmetics.Common.Validator">
+      <topicdata name="Validator" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Common.Validator" />
+      <apidata name="Validator" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Common.Validator.CheckIfNull(System.Object,System.String)" />
+        <element api="M:Cosmetics.Common.Validator.CheckIfStringIsNullOrEmpty(System.String,System.String)" />
+        <element api="M:Cosmetics.Common.Validator.CheckIfStringLengthIsValid(System.String,System.Int32,System.Int32,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.Validator" />
+      </containers>
+      <file name="8bf22617-e6ae-7ab1-e051-b4d2eebddd66" />
+    </api>
+    <api id="M:Cosmetics.Common.Validator.CheckIfNull(System.Object,System.String)">
+      <topicdata group="api" />
+      <apidata name="CheckIfNull" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="message" optional="true">
+          <type api="T:System.String" ref="true" />
+          <argument>
+            <type api="T:System.Object" ref="true" />
+            <nullValue />
+          </argument>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.Validator" ref="true" />
+      </containers>
+      <file name="f6f28cd6-efc5-6f95-6f32-415a64f9e12d" />
+    </api>
+    <api id="M:Cosmetics.Common.Validator.CheckIfStringIsNullOrEmpty(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="CheckIfStringIsNullOrEmpty" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="text">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="message" optional="true">
+          <type api="T:System.String" ref="true" />
+          <argument>
+            <type api="T:System.Object" ref="true" />
+            <nullValue />
+          </argument>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.Validator" ref="true" />
+      </containers>
+      <file name="24b7bbab-0f07-1245-814f-e8f4c5e00540" />
+    </api>
+    <api id="M:Cosmetics.Common.Validator.CheckIfStringLengthIsValid(System.String,System.Int32,System.Int32,System.String)">
+      <topicdata group="api" />
+      <apidata name="CheckIfStringLengthIsValid" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="text">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="max">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="min" optional="true">
+          <type api="T:System.Int32" ref="false" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>0</value>
+          </argument>
+        </parameter>
+        <parameter name="message" optional="true">
+          <type api="T:System.String" ref="true" />
+          <argument>
+            <type api="T:System.Object" ref="true" />
+            <nullValue />
+          </argument>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Common" />
+        <type api="T:Cosmetics.Common.Validator" ref="true" />
+      </containers>
+      <file name="eb453830-a28e-30e7-762e-c3453a547fcf" />
+    </api>
+    <api id="N:Cosmetics.Contracts">
+      <topicdata group="api" />
+      <apidata name="Cosmetics.Contracts" group="namespace" />
+      <elements>
+        <element api="T:Cosmetics.Contracts.ICategory" />
+        <element api="T:Cosmetics.Contracts.ICommand" />
+        <element api="T:Cosmetics.Contracts.ICosmeticsFactory" />
+        <element api="T:Cosmetics.Contracts.IEngine" />
+        <element api="T:Cosmetics.Contracts.IProduct" />
+        <element api="T:Cosmetics.Contracts.IShampoo" />
+        <element api="T:Cosmetics.Contracts.IShoppingCart" />
+        <element api="T:Cosmetics.Contracts.IToothpaste" />
+      </elements>
+      <file name="0ee8249d-4d0f-054b-c57b-0dcbd4d23ac9" />
+    </api>
+    <api id="T:Cosmetics.Contracts.ICategory">
+      <topicdata group="api" />
+      <apidata name="ICategory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Cosmetics.Contracts.ICategory.AddCosmetics(Cosmetics.Contracts.IProduct)" />
+        <element api="P:Cosmetics.Contracts.ICategory.Name" />
+        <element api="M:Cosmetics.Contracts.ICategory.Print" />
+        <element api="M:Cosmetics.Contracts.ICategory.RemoveCosmetics(Cosmetics.Contracts.IProduct)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="2f1b5930-547d-3219-e966-5c1721ac2c35" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.ICategory">
+      <topicdata name="ICategory" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.ICategory" />
+      <apidata name="ICategory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.ICategory.AddCosmetics(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.ICategory.Print" />
+        <element api="M:Cosmetics.Contracts.ICategory.RemoveCosmetics(Cosmetics.Contracts.IProduct)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" />
+      </containers>
+      <file name="f916b7ce-98b2-4f5c-6728-57691b4c362b" />
+    </api>
+    <api id="Properties.T:Cosmetics.Contracts.ICategory">
+      <topicdata name="ICategory" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Contracts.ICategory" />
+      <apidata name="ICategory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Contracts.ICategory.Name" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" />
+      </containers>
+      <file name="565073b8-a56a-d4c1-4f14-8e74601213c7" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICategory.AddCosmetics(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="AddCosmetics" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="cosmetics">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </containers>
+      <file name="775536ac-db48-11fe-0751-cb4dba0b824f" />
+    </api>
+    <api id="P:Cosmetics.Contracts.ICategory.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </containers>
+      <file name="0cc5ddc9-4f6e-8eb6-9a6e-f047a48aa3a4" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICategory.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </containers>
+      <file name="513b305a-d3c2-5812-44f9-0c3860554e02" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICategory.RemoveCosmetics(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="RemoveCosmetics" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="cosmetics">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </containers>
+      <file name="fb4fdee4-edfa-b0da-1f52-d1329eda60d1" />
+    </api>
+    <api id="T:Cosmetics.Contracts.ICommand">
+      <topicdata group="api" />
+      <apidata name="ICommand" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Engine.Command" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Cosmetics.Contracts.ICommand.Name" />
+        <element api="P:Cosmetics.Contracts.ICommand.Parameters" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="b3f6afd1-edc2-73df-95ef-8dd7334cfe2c" />
+    </api>
+    <api id="Properties.T:Cosmetics.Contracts.ICommand">
+      <topicdata name="ICommand" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Contracts.ICommand" />
+      <apidata name="ICommand" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Contracts.ICommand.Name" />
+        <element api="P:Cosmetics.Contracts.ICommand.Parameters" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICommand" />
+      </containers>
+      <file name="c17e58f1-3842-73c2-64c6-845ee8bf6f01" />
+    </api>
+    <api id="P:Cosmetics.Contracts.ICommand.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICommand" ref="true" />
+      </containers>
+      <file name="fe1bdc6d-6248-6287-4ca7-41cdec3fbed7" />
+    </api>
+    <api id="P:Cosmetics.Contracts.ICommand.Parameters">
+      <topicdata group="api" />
+      <apidata name="Parameters" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Parameters" />
+      <returns>
+        <type api="T:System.Collections.Generic.IList`1" ref="true">
+          <specialization>
+            <type api="T:System.String" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICommand" ref="true" />
+      </containers>
+      <file name="3b30beba-fe24-b15c-8bba-71adb339168a" />
+    </api>
+    <api id="T:Cosmetics.Contracts.ICosmeticsFactory">
+      <topicdata group="api" />
+      <apidata name="ICosmeticsFactory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateCategory(System.String)" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.ShoppingCart" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="b3c9321b-2b21-9de1-6e53-111f49526681" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.ICosmeticsFactory">
+      <topicdata name="ICosmeticsFactory" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.ICosmeticsFactory" />
+      <apidata name="ICosmeticsFactory" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateCategory(System.String)" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" />
+        <element api="M:Cosmetics.Contracts.ICosmeticsFactory.ShoppingCart" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" />
+      </containers>
+      <file name="f0d9c1ca-0c37-eb32-ba88-6f498b4e80a4" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateCategory(System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateCategory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+      </containers>
+      <file name="21dc9aec-99e8-fc84-b059-4bfd19937b75" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)">
+      <topicdata group="api" />
+      <apidata name="CreateShampoo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="milliliters">
+          <type api="T:System.UInt32" ref="false" />
+        </parameter>
+        <parameter name="usage">
+          <type api="T:Cosmetics.Common.UsageType" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+      </containers>
+      <file name="67d35ed9-e251-dcd9-1034-7b230ee028ee" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})">
+      <topicdata group="api" />
+      <apidata name="CreateToothpaste" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="ingredients">
+          <type api="T:System.Collections.Generic.IList`1" ref="true">
+            <specialization>
+              <type api="T:System.String" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+      </containers>
+      <file name="404e6be4-57bc-63ed-6c6f-bdc1dbef9cf4" />
+    </api>
+    <api id="M:Cosmetics.Contracts.ICosmeticsFactory.ShoppingCart">
+      <topicdata group="api" />
+      <apidata name="ShoppingCart" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+      </containers>
+      <file name="9f968fcb-fbf4-3a33-0e69-28bec27cf66d" />
+    </api>
+    <api id="T:Cosmetics.Contracts.IEngine">
+      <topicdata group="api" />
+      <apidata name="IEngine" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Cosmetics.Contracts.IEngine.Start" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="4b0268e2-8917-5e68-18b6-40d49b88ad24" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.IEngine">
+      <topicdata name="IEngine" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.IEngine" />
+      <apidata name="IEngine" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.IEngine.Start" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IEngine" />
+      </containers>
+      <file name="c314cdec-165f-c616-9cf5-f52f5fe4c0d8" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IEngine.Start">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IEngine" ref="true" />
+      </containers>
+      <file name="0dbb728f-fcfa-5bfa-dee6-5fb3aca6031b" />
+    </api>
+    <api id="T:Cosmetics.Contracts.IProduct">
+      <topicdata group="api" />
+      <apidata name="IProduct" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+        <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+        <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="5179e97f-474d-6f01-0e23-9e77afdcdb19" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.IProduct">
+      <topicdata name="IProduct" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.IProduct" />
+      <apidata name="IProduct" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" />
+      </containers>
+      <file name="e3af337b-5e45-fc8d-3118-504916c9050c" />
+    </api>
+    <api id="Properties.T:Cosmetics.Contracts.IProduct">
+      <topicdata name="IProduct" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Contracts.IProduct" />
+      <apidata name="IProduct" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" />
+      </containers>
+      <file name="253a1105-9636-c549-7b15-5c0f246a6a7b" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IProduct.Brand">
+      <topicdata group="api" />
+      <apidata name="Brand" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Brand" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </containers>
+      <file name="6c3a65d5-5de4-7c91-895a-28cbdd09155e" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IProduct.Gender">
+      <topicdata group="api" />
+      <apidata name="Gender" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Gender" />
+      <returns>
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </containers>
+      <file name="6ae47a41-6944-b4f6-2f43-812b905e1fc8" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IProduct.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </containers>
+      <file name="3a88eb74-e43d-381d-58eb-810198027f17" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IProduct.Price">
+      <topicdata group="api" />
+      <apidata name="Price" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Price" />
+      <returns>
+        <type api="T:System.Decimal" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </containers>
+      <file name="238cab67-11ef-493c-4a63-dc11751e0ba4" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IProduct.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </containers>
+      <file name="5b0038fc-df4c-1a7e-fb2d-8b1b0492e285" />
+    </api>
+    <api id="T:Cosmetics.Contracts.IShampoo">
+      <topicdata group="api" />
+      <apidata name="IShampoo" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+        <element api="P:Cosmetics.Contracts.IShampoo.Milliliters" />
+        <element api="P:Cosmetics.Contracts.IShampoo.Usage" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="de67a90f-03ee-93c4-0dcb-3c542e2a517e" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.IShampoo">
+      <topicdata name="IShampoo" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.IShampoo" />
+      <apidata name="IShampoo" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShampoo" />
+      </containers>
+      <file name="6fafd5de-7870-0677-b702-3251ff2c48cb" />
+    </api>
+    <api id="Properties.T:Cosmetics.Contracts.IShampoo">
+      <topicdata name="IShampoo" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Contracts.IShampoo" />
+      <apidata name="IShampoo" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+        <element api="P:Cosmetics.Contracts.IShampoo.Milliliters" />
+        <element api="P:Cosmetics.Contracts.IShampoo.Usage" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShampoo" />
+      </containers>
+      <file name="051e90c8-c3a4-723d-ebc1-350191073995" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IShampoo.Milliliters">
+      <topicdata group="api" />
+      <apidata name="Milliliters" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Milliliters" />
+      <returns>
+        <type api="T:System.UInt32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+      </containers>
+      <file name="c6467db8-bcc6-a5ca-e8a0-ca4da7a8366a" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IShampoo.Usage">
+      <topicdata group="api" />
+      <apidata name="Usage" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Usage" />
+      <returns>
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+      </containers>
+      <file name="8edb6611-3ee2-ce17-e0a7-6f45ba8b56e5" />
+    </api>
+    <api id="T:Cosmetics.Contracts.IShoppingCart">
+      <topicdata group="api" />
+      <apidata name="IShoppingCart" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Cosmetics.Contracts.IShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.TotalPrice" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="681c046c-a43b-b43f-3447-786291593cbb" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.IShoppingCart">
+      <topicdata name="IShoppingCart" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.IShoppingCart" />
+      <apidata name="IShoppingCart" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.IShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Contracts.IShoppingCart.TotalPrice" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShoppingCart" />
+      </containers>
+      <file name="881bf865-cb62-4948-de29-29f2232f7433" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="AddProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </containers>
+      <file name="418f39b5-7e9a-6962-a2dc-d2d03bf68a3e" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="ContainsProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </containers>
+      <file name="89be7b58-1e80-3100-52fb-95431e82c862" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="RemoveProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </containers>
+      <file name="ee4c02bd-4484-320b-d142-eba6d1173755" />
+    </api>
+    <api id="M:Cosmetics.Contracts.IShoppingCart.TotalPrice">
+      <topicdata group="api" />
+      <apidata name="TotalPrice" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Decimal" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </containers>
+      <file name="5bc111ab-8f6c-fd2f-6733-d528663b45f5" />
+    </api>
+    <api id="T:Cosmetics.Contracts.IToothpaste">
+      <topicdata group="api" />
+      <apidata name="IToothpaste" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+        <element api="P:Cosmetics.Contracts.IToothpaste.Ingredients" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+      </containers>
+      <file name="0838b5a1-8282-6d0f-8f6e-d230294e472f" />
+    </api>
+    <api id="Methods.T:Cosmetics.Contracts.IToothpaste">
+      <topicdata name="IToothpaste" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Contracts.IToothpaste" />
+      <apidata name="IToothpaste" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Cosmetics.Contracts.IProduct.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IToothpaste" />
+      </containers>
+      <file name="2cd156ea-c241-a00f-b1fb-a358eeef1de8" />
+    </api>
+    <api id="Properties.T:Cosmetics.Contracts.IToothpaste">
+      <topicdata name="IToothpaste" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Contracts.IToothpaste" />
+      <apidata name="IToothpaste" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Contracts.IProduct.Brand" />
+        <element api="P:Cosmetics.Contracts.IProduct.Gender" />
+        <element api="P:Cosmetics.Contracts.IProduct.Name" />
+        <element api="P:Cosmetics.Contracts.IProduct.Price" />
+        <element api="P:Cosmetics.Contracts.IToothpaste.Ingredients" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IToothpaste" />
+      </containers>
+      <file name="b49aad9b-9f70-66c9-8c4d-7c3d49cafeca" />
+    </api>
+    <api id="P:Cosmetics.Contracts.IToothpaste.Ingredients">
+      <topicdata group="api" />
+      <apidata name="Ingredients" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Ingredients" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Contracts" />
+        <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+      </containers>
+      <file name="7653fa63-185b-424e-3e45-5cd7d9100add" />
+    </api>
+    <api id="N:Cosmetics.Engine">
+      <topicdata group="api" />
+      <apidata name="Cosmetics.Engine" group="namespace" />
+      <elements>
+        <element api="T:Cosmetics.Engine.Command" />
+        <element api="T:Cosmetics.Engine.CosmeticsEngine" />
+        <element api="T:Cosmetics.Engine.CosmeticsFactory" />
+      </elements>
+      <file name="19fd32ec-193c-5bba-4079-cdd3870d4518" />
+    </api>
+    <api id="T:Cosmetics.Engine.Command">
+      <topicdata group="api" />
+      <apidata name="Command" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.ICommand" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="P:Cosmetics.Engine.Command.Name" />
+        <element api="P:Cosmetics.Engine.Command.Parameters" />
+        <element api="M:Cosmetics.Engine.Command.Parse(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+      </containers>
+      <file name="959c3215-e28d-f357-f087-5b66d4015880" />
+    </api>
+    <api id="Methods.T:Cosmetics.Engine.Command">
+      <topicdata name="Command" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Engine.Command" />
+      <apidata name="Command" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Engine.Command.Parse(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.Command" />
+      </containers>
+      <file name="9fc6b369-026d-c516-6676-27a76ba339a9" />
+    </api>
+    <api id="Properties.T:Cosmetics.Engine.Command">
+      <topicdata name="Command" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Engine.Command" />
+      <apidata name="Command" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Engine.Command.Name" />
+        <element api="P:Cosmetics.Engine.Command.Parameters" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.Command" />
+      </containers>
+      <file name="4776cc4d-a2b4-2681-f6e2-da25cf05cdbb" />
+    </api>
+    <api id="P:Cosmetics.Engine.Command.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.ICommand.Name">
+          <type api="T:Cosmetics.Contracts.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.Command" ref="true" />
+      </containers>
+      <file name="d7e9fa18-e42d-46b8-5a9d-a9ea7bb34420" />
+    </api>
+    <api id="P:Cosmetics.Engine.Command.Parameters">
+      <topicdata group="api" />
+      <apidata name="Parameters" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Parameters" />
+      <returns>
+        <type api="T:System.Collections.Generic.IList`1" ref="true">
+          <specialization>
+            <type api="T:System.String" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.ICommand.Parameters">
+          <type api="T:Cosmetics.Contracts.ICommand" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.Command" ref="true" />
+      </containers>
+      <file name="901e051c-5575-85e2-f510-936b62b617fe" />
+    </api>
+    <api id="M:Cosmetics.Engine.Command.Parse(System.String)">
+      <topicdata group="api" />
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="input">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Engine.Command" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.Command" ref="true" />
+      </containers>
+      <file name="88ef407d-a6b8-bee4-5191-82f6aa31d4e2" />
+    </api>
+    <api id="T:Cosmetics.Engine.CosmeticsEngine">
+      <topicdata group="api" />
+      <apidata name="CosmeticsEngine" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.IEngine" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="P:Cosmetics.Engine.CosmeticsEngine.Instance" />
+        <element api="M:Cosmetics.Engine.CosmeticsEngine.Start" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+      </containers>
+      <file name="b97b828a-39b8-5fc8-7182-764009fdc685" />
+    </api>
+    <api id="Methods.T:Cosmetics.Engine.CosmeticsEngine">
+      <topicdata name="CosmeticsEngine" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Engine.CosmeticsEngine" />
+      <apidata name="CosmeticsEngine" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Engine.CosmeticsEngine.Start" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" />
+      </containers>
+      <file name="a6e542ac-0c4a-c4e9-1536-1f7d24439ecf" />
+    </api>
+    <api id="Properties.T:Cosmetics.Engine.CosmeticsEngine">
+      <topicdata name="CosmeticsEngine" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Engine.CosmeticsEngine" />
+      <apidata name="CosmeticsEngine" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Engine.CosmeticsEngine.Instance" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" />
+      </containers>
+      <file name="13cea69d-d40f-e982-6236-1b2aa363c020" />
+    </api>
+    <api id="P:Cosmetics.Engine.CosmeticsEngine.Instance">
+      <topicdata group="api" />
+      <apidata name="Instance" group="member" subgroup="property" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Instance" />
+      <returns>
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" ref="true" />
+      </containers>
+      <file name="a6a9a39a-3d8a-6a57-ec31-e318c3c491d0" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsEngine.Start">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:Cosmetics.Contracts.IEngine.Start">
+          <type api="T:Cosmetics.Contracts.IEngine" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsEngine" ref="true" />
+      </containers>
+      <file name="2e020980-f8b3-4456-c0a6-8f1fac748a4f" />
+    </api>
+    <api id="T:Cosmetics.Engine.CosmeticsFactory">
+      <topicdata group="api" />
+      <apidata name="CosmeticsFactory" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.#ctor" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateCategory(System.String)" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.ShoppingCart" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+      </containers>
+      <file name="f5f78ee9-f3c1-da79-702f-b3f098d6cbb6" />
+    </api>
+    <api id="Methods.T:Cosmetics.Engine.CosmeticsFactory">
+      <topicdata name="CosmeticsFactory" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Engine.CosmeticsFactory" />
+      <apidata name="CosmeticsFactory" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateCategory(System.String)" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" />
+        <element api="M:Cosmetics.Engine.CosmeticsFactory.ShoppingCart" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" />
+      </containers>
+      <file name="269686b5-8e08-b657-e439-4de13f5ffc05" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsFactory.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </containers>
+      <file name="40d74fd9-9e70-605a-b579-8633340de607" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsFactory.CreateCategory(System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateCategory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateCategory(System.String)">
+          <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </containers>
+      <file name="df7a2c5c-1171-94c4-58db-7a50b64c9a51" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)">
+      <topicdata group="api" />
+      <apidata name="CreateShampoo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="milliliters">
+          <type api="T:System.UInt32" ref="false" />
+        </parameter>
+        <parameter name="usage">
+          <type api="T:Cosmetics.Common.UsageType" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)">
+          <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </containers>
+      <file name="dedf57b5-cae4-3a91-ce84-6f75608d6534" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})">
+      <topicdata group="api" />
+      <apidata name="CreateToothpaste" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="ingredients">
+          <type api="T:System.Collections.Generic.IList`1" ref="true">
+            <specialization>
+              <type api="T:System.String" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})">
+          <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </containers>
+      <file name="8c55ff5d-86e8-23ae-0568-9ccab49e1ac3" />
+    </api>
+    <api id="M:Cosmetics.Engine.CosmeticsFactory.ShoppingCart">
+      <topicdata group="api" />
+      <apidata name="ShoppingCart" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICosmeticsFactory.ShoppingCart">
+          <type api="T:Cosmetics.Contracts.ICosmeticsFactory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Engine" />
+        <type api="T:Cosmetics.Engine.CosmeticsFactory" ref="true" />
+      </containers>
+      <file name="dc9ba2d9-ce6e-1232-df96-4c26232f06c9" />
+    </api>
+    <api id="N:Cosmetics.Products">
+      <topicdata group="api" />
+      <apidata name="Cosmetics.Products" group="namespace" />
+      <elements>
+        <element api="T:Cosmetics.Products.Category" />
+        <element api="T:Cosmetics.Products.Product" />
+        <element api="T:Cosmetics.Products.Shampoo" />
+        <element api="T:Cosmetics.Products.ShoppingCart" />
+        <element api="T:Cosmetics.Products.Toothpaste" />
+      </elements>
+      <file name="353d7ca3-7348-723d-a22f-d4ee92c93e11" />
+    </api>
+    <api id="T:Cosmetics.Products.Category">
+      <topicdata group="api" />
+      <apidata name="Category" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Category.#ctor(System.String)" />
+        <element api="M:Cosmetics.Products.Category.AddCosmetics(Cosmetics.Contracts.IProduct)" />
+        <element api="P:Cosmetics.Products.Category.Name" />
+        <element api="M:Cosmetics.Products.Category.Print" />
+        <element api="M:Cosmetics.Products.Category.RemoveCosmetics(Cosmetics.Contracts.IProduct)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+      </containers>
+      <file name="4405cad2-9944-7d8d-d14a-0fca3e4e949b" />
+    </api>
+    <api id="Methods.T:Cosmetics.Products.Category">
+      <topicdata name="Category" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Products.Category" />
+      <apidata name="Category" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Category.AddCosmetics(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.Category.Print" />
+        <element api="M:Cosmetics.Products.Category.RemoveCosmetics(Cosmetics.Contracts.IProduct)" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" />
+      </containers>
+      <file name="ec0811fa-1df8-acac-8235-e7b3c1296292" />
+    </api>
+    <api id="Properties.T:Cosmetics.Products.Category">
+      <topicdata name="Category" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Products.Category" />
+      <apidata name="Category" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Products.Category.Name" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" />
+      </containers>
+      <file name="ac9c80d8-d5da-fa8c-0db5-f2b219c7a7b5" />
+    </api>
+    <api id="M:Cosmetics.Products.Category.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </containers>
+      <file name="d90caee7-cb65-4881-35ea-1d2c576a664e" />
+    </api>
+    <api id="M:Cosmetics.Products.Category.AddCosmetics(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="AddCosmetics" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="cosmetics">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICategory.AddCosmetics(Cosmetics.Contracts.IProduct)">
+          <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </containers>
+      <file name="4f75af8a-8861-9d11-c3b5-5e219ca8dd85" />
+    </api>
+    <api id="P:Cosmetics.Products.Category.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.ICategory.Name">
+          <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </containers>
+      <file name="85819699-740f-300a-8d2d-f874429a0125" />
+    </api>
+    <api id="M:Cosmetics.Products.Category.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICategory.Print">
+          <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </containers>
+      <file name="b7f9cd49-27cc-80f2-8286-1d2ef8538ab2" />
+    </api>
+    <api id="M:Cosmetics.Products.Category.RemoveCosmetics(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="RemoveCosmetics" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="cosmetics">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:Cosmetics.Contracts.ICategory.RemoveCosmetics(Cosmetics.Contracts.IProduct)">
+          <type api="T:Cosmetics.Contracts.ICategory" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Category" ref="true" />
+      </containers>
+      <file name="683c99a7-5deb-4769-97d8-97265222a82e" />
+    </api>
+    <api id="T:Cosmetics.Products.Product">
+      <topicdata group="api" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+        <descendents>
+          <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+          <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+        </descendents>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Product.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType)" />
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+        <element api="M:Cosmetics.Products.Product.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+      </containers>
+      <file name="d0632158-b19f-ec73-569a-23ba81595ecf" />
+    </api>
+    <api id="Methods.T:Cosmetics.Products.Product">
+      <topicdata name="Product" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Products.Product" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Product.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" />
+      </containers>
+      <file name="4ad076c7-4650-79a0-ec05-433fa9845efb" />
+    </api>
+    <api id="Properties.T:Cosmetics.Products.Product">
+      <topicdata name="Product" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Products.Product" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" />
+      </containers>
+      <file name="ce947641-9369-42c9-a1cb-5ef6ff4d3fd2" />
+    </api>
+    <api id="M:Cosmetics.Products.Product.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="49c49b28-a415-a6e1-538d-c783a06d5a88" />
+    </api>
+    <api id="P:Cosmetics.Products.Product.Brand">
+      <topicdata group="api" />
+      <apidata name="Brand" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Brand" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IProduct.Brand">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="46ed7bcc-b8b2-af2d-bea4-47d7e52250c9" />
+    </api>
+    <api id="P:Cosmetics.Products.Product.Gender">
+      <topicdata group="api" />
+      <apidata name="Gender" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Gender" />
+      <returns>
+        <type api="T:Cosmetics.Common.GenderType" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IProduct.Gender">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="79526bfa-85c1-0ca4-89be-bda4290f9cd7" />
+    </api>
+    <api id="P:Cosmetics.Products.Product.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IProduct.Name">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="f911c151-cfa5-29a1-86ac-94a8e9c2582d" />
+    </api>
+    <api id="P:Cosmetics.Products.Product.Price">
+      <topicdata group="api" />
+      <apidata name="Price" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" set-visibility="family" />
+      <getter name="get_Price" />
+      <setter name="set_Price" />
+      <returns>
+        <type api="T:System.Decimal" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IProduct.Price">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="e41f5e01-46ef-0029-0184-e6dc6a639f6b" />
+    </api>
+    <api id="M:Cosmetics.Products.Product.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IProduct.Print">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Product" ref="true" />
+      </containers>
+      <file name="1188041a-4638-11cd-9b0b-5baa9beac6c0" />
+    </api>
+    <api id="T:Cosmetics.Products.Shampoo">
+      <topicdata group="api" />
+      <apidata name="Shampoo" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:Cosmetics.Products.Product" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </implements>
+      <elements>
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Shampoo.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" />
+        <element api="P:Cosmetics.Products.Shampoo.Milliliters" />
+        <element api="M:Cosmetics.Products.Shampoo.Print" />
+        <element api="P:Cosmetics.Products.Shampoo.Usage" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+      </containers>
+      <file name="ffeb1ef6-030f-ef81-3129-74572db678da" />
+    </api>
+    <api id="Methods.T:Cosmetics.Products.Shampoo">
+      <topicdata name="Shampoo" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Products.Shampoo" />
+      <apidata name="Shampoo" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Shampoo.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" />
+      </containers>
+      <file name="91fcbfe2-a468-1e49-ca4f-1d6386d2f28e" />
+    </api>
+    <api id="Properties.T:Cosmetics.Products.Shampoo">
+      <topicdata name="Shampoo" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Products.Shampoo" />
+      <apidata name="Shampoo" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+        <element api="P:Cosmetics.Products.Shampoo.Milliliters" />
+        <element api="P:Cosmetics.Products.Shampoo.Usage" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" />
+      </containers>
+      <file name="e897f87c-f1ec-ea34-f47a-fd6cb963d71d" />
+    </api>
+    <api id="M:Cosmetics.Products.Shampoo.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="milliliters">
+          <type api="T:System.UInt32" ref="false" />
+        </parameter>
+        <parameter name="usage">
+          <type api="T:Cosmetics.Common.UsageType" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+      </containers>
+      <file name="18ea9dc7-00ca-4854-67f4-76a722fb8715" />
+    </api>
+    <api id="P:Cosmetics.Products.Shampoo.Milliliters">
+      <topicdata group="api" />
+      <apidata name="Milliliters" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Milliliters" />
+      <returns>
+        <type api="T:System.UInt32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IShampoo.Milliliters">
+          <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+      </containers>
+      <file name="b5b86c88-82ce-d1b0-bd6e-142fe74a0962" />
+    </api>
+    <api id="M:Cosmetics.Products.Shampoo.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:Cosmetics.Products.Product.Print">
+          <type api="T:Cosmetics.Products.Product" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IProduct.Print">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+        <member api="M:Cosmetics.Contracts.IProduct.Print">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+      </containers>
+      <file name="981eafda-9f12-dbcb-2302-fac08935652c" />
+    </api>
+    <api id="P:Cosmetics.Products.Shampoo.Usage">
+      <topicdata group="api" />
+      <apidata name="Usage" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Usage" />
+      <returns>
+        <type api="T:Cosmetics.Common.UsageType" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IShampoo.Usage">
+          <type api="T:Cosmetics.Contracts.IShampoo" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Shampoo" ref="true" />
+      </containers>
+      <file name="be76e178-56aa-52f7-1b0d-248bb34704ca" />
+    </api>
+    <api id="T:Cosmetics.Products.ShoppingCart">
+      <topicdata group="api" />
+      <apidata name="ShoppingCart" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.ShoppingCart.#ctor" />
+        <element api="M:Cosmetics.Products.ShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.TotalPrice" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+      </containers>
+      <file name="02c4d2da-ca3d-d2c2-8694-b76f2222e0d7" />
+    </api>
+    <api id="Methods.T:Cosmetics.Products.ShoppingCart">
+      <topicdata name="ShoppingCart" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Products.ShoppingCart" />
+      <apidata name="ShoppingCart" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.ShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" />
+        <element api="M:Cosmetics.Products.ShoppingCart.TotalPrice" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" />
+      </containers>
+      <file name="3d119ce6-de41-5e2f-881c-8c1df3ec90e8" />
+    </api>
+    <api id="M:Cosmetics.Products.ShoppingCart.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </containers>
+      <file name="bf1c4658-d4cf-961f-025b-84aafeb39b42" />
+    </api>
+    <api id="M:Cosmetics.Products.ShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="AddProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)">
+          <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </containers>
+      <file name="cf6984b0-3d4e-739c-8ce1-a1c98b34c684" />
+    </api>
+    <api id="M:Cosmetics.Products.ShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="ContainsProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)">
+          <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </containers>
+      <file name="0b1648d4-9622-2923-a4ef-8cb606e92cfc" />
+    </api>
+    <api id="M:Cosmetics.Products.ShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)">
+      <topicdata group="api" />
+      <apidata name="RemoveProduct" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="product">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)">
+          <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </containers>
+      <file name="0f71c420-780d-9af0-d07c-0aa94d4ad8f7" />
+    </api>
+    <api id="M:Cosmetics.Products.ShoppingCart.TotalPrice">
+      <topicdata group="api" />
+      <apidata name="TotalPrice" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Decimal" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IShoppingCart.TotalPrice">
+          <type api="T:Cosmetics.Contracts.IShoppingCart" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.ShoppingCart" ref="true" />
+      </containers>
+      <file name="6c15554e-0230-1d6c-b61e-de600a282c8b" />
+    </api>
+    <api id="T:Cosmetics.Products.Toothpaste">
+      <topicdata group="api" />
+      <apidata name="Toothpaste" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:Cosmetics.Products.Product" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+        <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+      </implements>
+      <elements>
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Toothpaste.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" />
+        <element api="P:Cosmetics.Products.Toothpaste.Ingredients" />
+        <element api="M:Cosmetics.Products.Toothpaste.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+      </containers>
+      <file name="5c2d7d47-8106-58ca-c289-60ff909dcedc" />
+    </api>
+    <api id="Methods.T:Cosmetics.Products.Toothpaste">
+      <topicdata name="Toothpaste" group="list" subgroup="Methods" typeTopicId="T:Cosmetics.Products.Toothpaste" />
+      <apidata name="Toothpaste" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Cosmetics.Products.Toothpaste.Print" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Toothpaste" />
+      </containers>
+      <file name="51efb554-d0ea-632f-0b68-4d1437679a9d" />
+    </api>
+    <api id="Properties.T:Cosmetics.Products.Toothpaste">
+      <topicdata name="Toothpaste" group="list" subgroup="Properties" typeTopicId="T:Cosmetics.Products.Toothpaste" />
+      <apidata name="Toothpaste" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Cosmetics.Products.Product.Brand" />
+        <element api="P:Cosmetics.Products.Product.Gender" />
+        <element api="P:Cosmetics.Products.Product.Name" />
+        <element api="P:Cosmetics.Products.Product.Price" />
+        <element api="P:Cosmetics.Products.Toothpaste.Ingredients" />
+      </elements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Toothpaste" />
+      </containers>
+      <file name="79776043-a70b-3f49-cdcc-86c58ceb62be" />
+    </api>
+    <api id="M:Cosmetics.Products.Toothpaste.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="brand">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="price">
+          <type api="T:System.Decimal" ref="false" />
+        </parameter>
+        <parameter name="gender">
+          <type api="T:Cosmetics.Common.GenderType" ref="false" />
+        </parameter>
+        <parameter name="ingredients">
+          <type api="T:System.Collections.Generic.IList`1" ref="true">
+            <specialization>
+              <type api="T:System.String" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+      </containers>
+      <file name="7ce59b00-e9fb-8097-5936-c865184594cf" />
+    </api>
+    <api id="P:Cosmetics.Products.Toothpaste.Ingredients">
+      <topicdata group="api" />
+      <apidata name="Ingredients" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Ingredients" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Cosmetics.Contracts.IToothpaste.Ingredients">
+          <type api="T:Cosmetics.Contracts.IToothpaste" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+      </containers>
+      <file name="c8c49671-4ac8-18ad-42af-2f040f4ef80c" />
+    </api>
+    <api id="M:Cosmetics.Products.Toothpaste.Print">
+      <topicdata group="api" />
+      <apidata name="Print" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:Cosmetics.Products.Product.Print">
+          <type api="T:Cosmetics.Products.Product" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Cosmetics.Contracts.IProduct.Print">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+        <member api="M:Cosmetics.Contracts.IProduct.Print">
+          <type api="T:Cosmetics.Contracts.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Cosmetics" module="Cosmetics" kind="ConsoleApplication">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Cosmetics.Products" />
+        <type api="T:Cosmetics.Products.Toothpaste" ref="true" />
+      </containers>
+      <file name="ba23f37e-af40-a703-333c-ed2ad0d15d53" />
+    </api>
+  </apis>
+</reflection>

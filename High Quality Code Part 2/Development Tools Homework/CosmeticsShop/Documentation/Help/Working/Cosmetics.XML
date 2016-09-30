@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Cosmetics</name>
+  </assembly>
+  <members>
+    <member name="T:Cosmetics.Common.GenderType">
+      <summary>
+            Enumeration for the types of the products in the Cosmetics shop.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Common.GlobalErrorMessages">
+      <summary>
+            A class for constant error messages
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Common.UsageType">
+      <summary>
+            Enumeration representing the usage type of the products of the Cosmetics shop.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Common.Validator">
+      <summary>
+            Validator class uniting the validations of properties.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Common.Validator.CheckIfNull(System.Object,System.String)">
+      <summary>
+            Checks if the provided parameters are not null. Throws and exception if the parameter is null. 
+            </summary>
+      <param name="obj">The object to be checked</param>
+      <param name="message">Error message</param>
+      <exception cref="T:System.NullReferenceException">Throws if a parameter is null</exception>
+    </member>
+    <member name="M:Cosmetics.Common.Validator.CheckIfStringIsNullOrEmpty(System.String,System.String)">
+      <summary>
+            Checks if a parameter of type string s null or empty. 
+            </summary>
+      <param name="text">The parameter of type string to be checked</param>
+      <param name="message">Error message</param>
+      <exception cref="T:System.NullReferenceException">Throws an exception if a parameter of type string is null or empty.</exception>
+    </member>
+    <member name="M:Cosmetics.Common.Validator.CheckIfStringLengthIsValid(System.String,System.Int32,System.Int32,System.String)">
+      <summary>
+            Checks if the length of a parameter of type string is valid.
+            </summary>
+      <param name="text">The parameter to be checked</param>
+      <param name="max">Maximal length</param>
+      <param name="min">Minimal lenght</param>
+      <param name="message">Error message</param>
+      <exception cref="T:System.IndexOutOfRangeException">Throws an exception if the length is not valid.</exception>
+    </member>
+    <member name="T:Cosmetics.Contracts.ICategory">
+      <summary>
+            ICategory interface represents a contract for the categories in the Cosmetics shop.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.ICommand">
+      <summary>
+            ICommand interface is a contract for using the commands of the application.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.ICosmeticsFactory">
+      <summary>
+            ICosmetics Factory is a contract for creating the Cosmetics factory class of the Cosmetics shop application.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.IEngine">
+      <summary>
+            IEngine is a contract for the Engine of the Cosmetics factory application.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.IProduct">
+      <summary>
+            IProduct is a contract for the Product class of the Cosmetics shop application.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.IShampoo">
+      <summary>
+            IShampoo is a contract for the Shampoo class of the Cosmetics shop application. 
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.IShoppingCart">
+      <summary>
+            IShoppingCart is a contract for the Shopping cart class.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Contracts.IToothpaste">
+      <summary>
+            IToothpaste is a contract for the Toothpaste class.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.CosmeticsProgram">
+      <summary>
+            Cosmetisc program start up.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Engine.Command">
+      <summary>
+            Class Command helps parsing the input commands and translating the input. 
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Engine.CosmeticsEngine">
+      <summary>
+            The Cosmetics Engine runs the application.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Engine.CosmeticsEngine.Start">
+      <summary>
+            Start method invokes the input command methods and runs the application by printing a report.
+            </summary>
+    </member>
+    <member name="T:Cosmetics.Products.Category">
+      <summary>
+            Category class representing the main features of the categories in the Cosmetics shop application.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Products.Category.AddCosmetics(Cosmetics.Contracts.IProduct)">
+      <summary>
+            Adds a product to the category.
+            </summary>
+      <param name="cosmetics">The product to be added</param>
+    </member>
+    <member name="M:Cosmetics.Products.Category.RemoveCosmetics(Cosmetics.Contracts.IProduct)">
+      <summary>
+            Removes a product from the category. 
+            </summary>
+      <param name="cosmetics">A cosmetics to be removed.</param>
+    </member>
+    <member name="M:Cosmetics.Products.Category.Print">
+      <summary>
+            Prining the Categories and the products in it. 
+            </summary>
+      <returns>Returns a string type report.</returns>
+    </member>
+    <member name="T:Cosmetics.Products.Product">
+      <summary>
+            Represents all major features of the product type. 
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Products.Product.Print">
+      <summary>
+            Prints the product.
+            </summary>
+      <returns>Returns a string value.</returns>
+    </member>
+    <member name="T:Cosmetics.Products.Shampoo">
+      <summary>
+            Shampoo class representing all features of the shampoo type.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Products.Shampoo.Print">
+      <summary>
+            Prints the shampoo.
+            </summary>
+      <returns>Returns a string value.</returns>
+    </member>
+    <member name="T:Cosmetics.Products.ShoppingCart">
+      <summary>
+            The shopping cart represents the ShoppingCart type.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Products.ShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)">
+      <summary>
+            Adds a product to the shopping cart.
+            </summary>
+      <param name="product">The product to be added.</param>
+    </member>
+    <member name="M:Cosmetics.Products.ShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)">
+      <summary>
+            Removes a product from the shopping cart.
+            </summary>
+      <param name="product">The product to be removed.</param>
+    </member>
+    <member name="M:Cosmetics.Products.ShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)">
+      <summary>
+            Checks if a product is already in the shopping cart.
+            </summary>
+      <param name="product">The product to be checked.</param>
+      <returns>Returns a boolean value.</returns>
+    </member>
+    <member name="M:Cosmetics.Products.ShoppingCart.TotalPrice">
+      <summary>
+            calculates the total sum of the products in the shopping cart.
+            </summary>
+      <returns>Returns a decimal value.</returns>
+    </member>
+    <member name="T:Cosmetics.Products.Toothpaste">
+      <summary>
+            Toothpaste class represents the features of the toothpase type in the Cosmetics shop application.
+            </summary>
+    </member>
+    <member name="M:Cosmetics.Products.Toothpaste.Print">
+      <summary>
+            Prints the toothpaste.
+            </summary>
+      <returns>Returns a string value.</returns>
+    </member>
+    <member name="N:Cosmetics">
+      <summary />
+    </member>
+    <member name="N:Cosmetics.Common">
+      <summary />
+    </member>
+    <member name="N:Cosmetics.Contracts">
+      <summary />
+    </member>
+    <member name="N:Cosmetics.Engine">
+      <summary />
+    </member>
+    <member name="N:Cosmetics.Products">
+      <summary />
+    </member>
+  </members>
+</doc>

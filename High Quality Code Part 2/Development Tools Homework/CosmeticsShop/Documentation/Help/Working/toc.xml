@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="N:Cosmetics" project="_Namespaces" file="41b5768d-5d3a-4a80-3e1d-e60bbb3079dc">
+    <topic id="T:Cosmetics.CosmeticsProgram" project="Cosmetics" file="dea9b560-8c43-3ff7-4269-9a6a3692d7b5">
+      <topic id="M:Cosmetics.CosmeticsProgram.#ctor" project="Cosmetics" file="ff7d028c-0142-a45e-ba0d-562c1c72de95" />
+      <topic id="Methods.T:Cosmetics.CosmeticsProgram" project="Cosmetics" file="b9a3c322-636b-fabe-9e4e-6f0b33b7abb5">
+        <topic id="M:Cosmetics.CosmeticsProgram.Main" project="Cosmetics" file="a9468c39-42a5-a56f-5890-2fcf618d1cf4" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:Cosmetics.Common" project="_Namespaces" file="4362c1f4-2b9b-c0c4-6357-ceb8ceb0b071">
+    <topic id="T:Cosmetics.Common.GenderType" project="Cosmetics" file="cb92992d-031f-9f4a-eebe-5d14dbc7e104" />
+    <topic id="T:Cosmetics.Common.GlobalErrorMessages" project="Cosmetics" file="0a1721cf-c48c-1368-72b4-249bab955490">
+      <topic id="M:Cosmetics.Common.GlobalErrorMessages.#ctor" project="Cosmetics" file="ba5694cc-b704-ffdf-f0ca-04c433f83482" />
+      <topic id="Methods.T:Cosmetics.Common.GlobalErrorMessages" project="Cosmetics" file="78b23afa-cece-822e-c4ed-4f1ca36620c0" />
+      <topic id="Fields.T:Cosmetics.Common.GlobalErrorMessages" project="Cosmetics" file="206b14da-8ffb-3b73-7c2b-a5981d6e519e">
+        <topic id="F:Cosmetics.Common.GlobalErrorMessages.InvalidStringLength" project="Cosmetics" file="eccdcce5-21ec-9aa9-7faa-4babba058902" />
+        <topic id="F:Cosmetics.Common.GlobalErrorMessages.ObjectCannotBeNull" project="Cosmetics" file="60c5d041-8e34-33fc-28b8-ffca3736ab31" />
+        <topic id="F:Cosmetics.Common.GlobalErrorMessages.StringCannotBeNullOrEmpty" project="Cosmetics" file="ade671eb-6016-acd0-5a99-693a3c13c4c3" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Common.UsageType" project="Cosmetics" file="e588ec8e-e94b-534d-b625-e568c4895a5d" />
+    <topic id="T:Cosmetics.Common.Validator" project="Cosmetics" file="6dc56332-7a6b-7d66-9681-de0588daf971">
+      <topic id="Methods.T:Cosmetics.Common.Validator" project="Cosmetics" file="8bf22617-e6ae-7ab1-e051-b4d2eebddd66">
+        <topic id="M:Cosmetics.Common.Validator.CheckIfNull(System.Object,System.String)" project="Cosmetics" file="f6f28cd6-efc5-6f95-6f32-415a64f9e12d" />
+        <topic id="M:Cosmetics.Common.Validator.CheckIfStringIsNullOrEmpty(System.String,System.String)" project="Cosmetics" file="24b7bbab-0f07-1245-814f-e8f4c5e00540" />
+        <topic id="M:Cosmetics.Common.Validator.CheckIfStringLengthIsValid(System.String,System.Int32,System.Int32,System.String)" project="Cosmetics" file="eb453830-a28e-30e7-762e-c3453a547fcf" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:Cosmetics.Contracts" project="_Namespaces" file="0ee8249d-4d0f-054b-c57b-0dcbd4d23ac9">
+    <topic id="T:Cosmetics.Contracts.ICategory" project="Cosmetics" file="2f1b5930-547d-3219-e966-5c1721ac2c35">
+      <topic id="Properties.T:Cosmetics.Contracts.ICategory" project="Cosmetics" file="565073b8-a56a-d4c1-4f14-8e74601213c7">
+        <topic id="P:Cosmetics.Contracts.ICategory.Name" project="Cosmetics" file="0cc5ddc9-4f6e-8eb6-9a6e-f047a48aa3a4" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Contracts.ICategory" project="Cosmetics" file="f916b7ce-98b2-4f5c-6728-57691b4c362b">
+        <topic id="M:Cosmetics.Contracts.ICategory.AddCosmetics(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="775536ac-db48-11fe-0751-cb4dba0b824f" />
+        <topic id="M:Cosmetics.Contracts.ICategory.Print" project="Cosmetics" file="513b305a-d3c2-5812-44f9-0c3860554e02" />
+        <topic id="M:Cosmetics.Contracts.ICategory.RemoveCosmetics(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="fb4fdee4-edfa-b0da-1f52-d1329eda60d1" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.ICommand" project="Cosmetics" file="b3f6afd1-edc2-73df-95ef-8dd7334cfe2c">
+      <topic id="Properties.T:Cosmetics.Contracts.ICommand" project="Cosmetics" file="c17e58f1-3842-73c2-64c6-845ee8bf6f01">
+        <topic id="P:Cosmetics.Contracts.ICommand.Name" project="Cosmetics" file="fe1bdc6d-6248-6287-4ca7-41cdec3fbed7" />
+        <topic id="P:Cosmetics.Contracts.ICommand.Parameters" project="Cosmetics" file="3b30beba-fe24-b15c-8bba-71adb339168a" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.ICosmeticsFactory" project="Cosmetics" file="b3c9321b-2b21-9de1-6e53-111f49526681">
+      <topic id="Methods.T:Cosmetics.Contracts.ICosmeticsFactory" project="Cosmetics" file="f0d9c1ca-0c37-eb32-ba88-6f498b4e80a4">
+        <topic id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateCategory(System.String)" project="Cosmetics" file="21dc9aec-99e8-fc84-b059-4bfd19937b75" />
+        <topic id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" project="Cosmetics" file="67d35ed9-e251-dcd9-1034-7b230ee028ee" />
+        <topic id="M:Cosmetics.Contracts.ICosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" project="Cosmetics" file="404e6be4-57bc-63ed-6c6f-bdc1dbef9cf4" />
+        <topic id="M:Cosmetics.Contracts.ICosmeticsFactory.ShoppingCart" project="Cosmetics" file="9f968fcb-fbf4-3a33-0e69-28bec27cf66d" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.IEngine" project="Cosmetics" file="4b0268e2-8917-5e68-18b6-40d49b88ad24">
+      <topic id="Methods.T:Cosmetics.Contracts.IEngine" project="Cosmetics" file="c314cdec-165f-c616-9cf5-f52f5fe4c0d8">
+        <topic id="M:Cosmetics.Contracts.IEngine.Start" project="Cosmetics" file="0dbb728f-fcfa-5bfa-dee6-5fb3aca6031b" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.IProduct" project="Cosmetics" file="5179e97f-474d-6f01-0e23-9e77afdcdb19">
+      <topic id="Properties.T:Cosmetics.Contracts.IProduct" project="Cosmetics" file="253a1105-9636-c549-7b15-5c0f246a6a7b">
+        <topic id="P:Cosmetics.Contracts.IProduct.Brand" project="Cosmetics" file="6c3a65d5-5de4-7c91-895a-28cbdd09155e" />
+        <topic id="P:Cosmetics.Contracts.IProduct.Gender" project="Cosmetics" file="6ae47a41-6944-b4f6-2f43-812b905e1fc8" />
+        <topic id="P:Cosmetics.Contracts.IProduct.Name" project="Cosmetics" file="3a88eb74-e43d-381d-58eb-810198027f17" />
+        <topic id="P:Cosmetics.Contracts.IProduct.Price" project="Cosmetics" file="238cab67-11ef-493c-4a63-dc11751e0ba4" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Contracts.IProduct" project="Cosmetics" file="e3af337b-5e45-fc8d-3118-504916c9050c">
+        <topic id="M:Cosmetics.Contracts.IProduct.Print" project="Cosmetics" file="5b0038fc-df4c-1a7e-fb2d-8b1b0492e285" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.IShampoo" project="Cosmetics" file="de67a90f-03ee-93c4-0dcb-3c542e2a517e">
+      <topic id="Properties.T:Cosmetics.Contracts.IShampoo" project="Cosmetics" file="051e90c8-c3a4-723d-ebc1-350191073995">
+        <topic id="P:Cosmetics.Contracts.IShampoo.Milliliters" project="Cosmetics" file="c6467db8-bcc6-a5ca-e8a0-ca4da7a8366a" />
+        <topic id="P:Cosmetics.Contracts.IShampoo.Usage" project="Cosmetics" file="8edb6611-3ee2-ce17-e0a7-6f45ba8b56e5" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Contracts.IShampoo" project="Cosmetics" file="6fafd5de-7870-0677-b702-3251ff2c48cb" />
+    </topic>
+    <topic id="T:Cosmetics.Contracts.IShoppingCart" project="Cosmetics" file="681c046c-a43b-b43f-3447-786291593cbb">
+      <topic id="Methods.T:Cosmetics.Contracts.IShoppingCart" project="Cosmetics" file="881bf865-cb62-4948-de29-29f2232f7433">
+        <topic id="M:Cosmetics.Contracts.IShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="418f39b5-7e9a-6962-a2dc-d2d03bf68a3e" />
+        <topic id="M:Cosmetics.Contracts.IShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="89be7b58-1e80-3100-52fb-95431e82c862" />
+        <topic id="M:Cosmetics.Contracts.IShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="ee4c02bd-4484-320b-d142-eba6d1173755" />
+        <topic id="M:Cosmetics.Contracts.IShoppingCart.TotalPrice" project="Cosmetics" file="5bc111ab-8f6c-fd2f-6733-d528663b45f5" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Contracts.IToothpaste" project="Cosmetics" file="0838b5a1-8282-6d0f-8f6e-d230294e472f">
+      <topic id="Properties.T:Cosmetics.Contracts.IToothpaste" project="Cosmetics" file="b49aad9b-9f70-66c9-8c4d-7c3d49cafeca">
+        <topic id="P:Cosmetics.Contracts.IToothpaste.Ingredients" project="Cosmetics" file="7653fa63-185b-424e-3e45-5cd7d9100add" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Contracts.IToothpaste" project="Cosmetics" file="2cd156ea-c241-a00f-b1fb-a358eeef1de8" />
+    </topic>
+  </topic>
+  <topic id="N:Cosmetics.Engine" project="_Namespaces" file="19fd32ec-193c-5bba-4079-cdd3870d4518">
+    <topic id="T:Cosmetics.Engine.Command" project="Cosmetics" file="959c3215-e28d-f357-f087-5b66d4015880">
+      <topic id="Properties.T:Cosmetics.Engine.Command" project="Cosmetics" file="4776cc4d-a2b4-2681-f6e2-da25cf05cdbb">
+        <topic id="P:Cosmetics.Engine.Command.Name" project="Cosmetics" file="d7e9fa18-e42d-46b8-5a9d-a9ea7bb34420" />
+        <topic id="P:Cosmetics.Engine.Command.Parameters" project="Cosmetics" file="901e051c-5575-85e2-f510-936b62b617fe" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Engine.Command" project="Cosmetics" file="9fc6b369-026d-c516-6676-27a76ba339a9">
+        <topic id="M:Cosmetics.Engine.Command.Parse(System.String)" project="Cosmetics" file="88ef407d-a6b8-bee4-5191-82f6aa31d4e2" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Engine.CosmeticsEngine" project="Cosmetics" file="b97b828a-39b8-5fc8-7182-764009fdc685">
+      <topic id="Properties.T:Cosmetics.Engine.CosmeticsEngine" project="Cosmetics" file="13cea69d-d40f-e982-6236-1b2aa363c020">
+        <topic id="P:Cosmetics.Engine.CosmeticsEngine.Instance" project="Cosmetics" file="a6a9a39a-3d8a-6a57-ec31-e318c3c491d0" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Engine.CosmeticsEngine" project="Cosmetics" file="a6e542ac-0c4a-c4e9-1536-1f7d24439ecf">
+        <topic id="M:Cosmetics.Engine.CosmeticsEngine.Start" project="Cosmetics" file="2e020980-f8b3-4456-c0a6-8f1fac748a4f" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Engine.CosmeticsFactory" project="Cosmetics" file="f5f78ee9-f3c1-da79-702f-b3f098d6cbb6">
+      <topic id="M:Cosmetics.Engine.CosmeticsFactory.#ctor" project="Cosmetics" file="40d74fd9-9e70-605a-b579-8633340de607" />
+      <topic id="Methods.T:Cosmetics.Engine.CosmeticsFactory" project="Cosmetics" file="269686b5-8e08-b657-e439-4de13f5ffc05">
+        <topic id="M:Cosmetics.Engine.CosmeticsFactory.CreateCategory(System.String)" project="Cosmetics" file="df7a2c5c-1171-94c4-58db-7a50b64c9a51" />
+        <topic id="M:Cosmetics.Engine.CosmeticsFactory.CreateShampoo(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" project="Cosmetics" file="dedf57b5-cae4-3a91-ce84-6f75608d6534" />
+        <topic id="M:Cosmetics.Engine.CosmeticsFactory.CreateToothpaste(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" project="Cosmetics" file="8c55ff5d-86e8-23ae-0568-9ccab49e1ac3" />
+        <topic id="M:Cosmetics.Engine.CosmeticsFactory.ShoppingCart" project="Cosmetics" file="dc9ba2d9-ce6e-1232-df96-4c26232f06c9" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:Cosmetics.Products" project="_Namespaces" file="353d7ca3-7348-723d-a22f-d4ee92c93e11">
+    <topic id="T:Cosmetics.Products.Category" project="Cosmetics" file="4405cad2-9944-7d8d-d14a-0fca3e4e949b">
+      <topic id="M:Cosmetics.Products.Category.#ctor(System.String)" project="Cosmetics" file="d90caee7-cb65-4881-35ea-1d2c576a664e" />
+      <topic id="Properties.T:Cosmetics.Products.Category" project="Cosmetics" file="ac9c80d8-d5da-fa8c-0db5-f2b219c7a7b5">
+        <topic id="P:Cosmetics.Products.Category.Name" project="Cosmetics" file="85819699-740f-300a-8d2d-f874429a0125" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Products.Category" project="Cosmetics" file="ec0811fa-1df8-acac-8235-e7b3c1296292">
+        <topic id="M:Cosmetics.Products.Category.AddCosmetics(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="4f75af8a-8861-9d11-c3b5-5e219ca8dd85" />
+        <topic id="M:Cosmetics.Products.Category.Print" project="Cosmetics" file="b7f9cd49-27cc-80f2-8286-1d2ef8538ab2" />
+        <topic id="M:Cosmetics.Products.Category.RemoveCosmetics(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="683c99a7-5deb-4769-97d8-97265222a82e" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Products.Product" project="Cosmetics" file="d0632158-b19f-ec73-569a-23ba81595ecf">
+      <topic id="M:Cosmetics.Products.Product.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType)" project="Cosmetics" file="49c49b28-a415-a6e1-538d-c783a06d5a88" />
+      <topic id="Properties.T:Cosmetics.Products.Product" project="Cosmetics" file="ce947641-9369-42c9-a1cb-5ef6ff4d3fd2">
+        <topic id="P:Cosmetics.Products.Product.Brand" project="Cosmetics" file="46ed7bcc-b8b2-af2d-bea4-47d7e52250c9" />
+        <topic id="P:Cosmetics.Products.Product.Gender" project="Cosmetics" file="79526bfa-85c1-0ca4-89be-bda4290f9cd7" />
+        <topic id="P:Cosmetics.Products.Product.Name" project="Cosmetics" file="f911c151-cfa5-29a1-86ac-94a8e9c2582d" />
+        <topic id="P:Cosmetics.Products.Product.Price" project="Cosmetics" file="e41f5e01-46ef-0029-0184-e6dc6a639f6b" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Products.Product" project="Cosmetics" file="4ad076c7-4650-79a0-ec05-433fa9845efb">
+        <topic id="M:Cosmetics.Products.Product.Print" project="Cosmetics" file="1188041a-4638-11cd-9b0b-5baa9beac6c0" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Products.Shampoo" project="Cosmetics" file="ffeb1ef6-030f-ef81-3129-74572db678da">
+      <topic id="M:Cosmetics.Products.Shampoo.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.UInt32,Cosmetics.Common.UsageType)" project="Cosmetics" file="18ea9dc7-00ca-4854-67f4-76a722fb8715" />
+      <topic id="Properties.T:Cosmetics.Products.Shampoo" project="Cosmetics" file="e897f87c-f1ec-ea34-f47a-fd6cb963d71d">
+        <topic id="P:Cosmetics.Products.Shampoo.Milliliters" project="Cosmetics" file="b5b86c88-82ce-d1b0-bd6e-142fe74a0962" />
+        <topic id="P:Cosmetics.Products.Shampoo.Usage" project="Cosmetics" file="be76e178-56aa-52f7-1b0d-248bb34704ca" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Products.Shampoo" project="Cosmetics" file="91fcbfe2-a468-1e49-ca4f-1d6386d2f28e">
+        <topic id="M:Cosmetics.Products.Shampoo.Print" project="Cosmetics" file="981eafda-9f12-dbcb-2302-fac08935652c" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Products.ShoppingCart" project="Cosmetics" file="02c4d2da-ca3d-d2c2-8694-b76f2222e0d7">
+      <topic id="M:Cosmetics.Products.ShoppingCart.#ctor" project="Cosmetics" file="bf1c4658-d4cf-961f-025b-84aafeb39b42" />
+      <topic id="Methods.T:Cosmetics.Products.ShoppingCart" project="Cosmetics" file="3d119ce6-de41-5e2f-881c-8c1df3ec90e8">
+        <topic id="M:Cosmetics.Products.ShoppingCart.AddProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="cf6984b0-3d4e-739c-8ce1-a1c98b34c684" />
+        <topic id="M:Cosmetics.Products.ShoppingCart.ContainsProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="0b1648d4-9622-2923-a4ef-8cb606e92cfc" />
+        <topic id="M:Cosmetics.Products.ShoppingCart.RemoveProduct(Cosmetics.Contracts.IProduct)" project="Cosmetics" file="0f71c420-780d-9af0-d07c-0aa94d4ad8f7" />
+        <topic id="M:Cosmetics.Products.ShoppingCart.TotalPrice" project="Cosmetics" file="6c15554e-0230-1d6c-b61e-de600a282c8b" />
+      </topic>
+    </topic>
+    <topic id="T:Cosmetics.Products.Toothpaste" project="Cosmetics" file="5c2d7d47-8106-58ca-c289-60ff909dcedc">
+      <topic id="M:Cosmetics.Products.Toothpaste.#ctor(System.String,System.String,System.Decimal,Cosmetics.Common.GenderType,System.Collections.Generic.IList{System.String})" project="Cosmetics" file="7ce59b00-e9fb-8097-5936-c865184594cf" />
+      <topic id="Properties.T:Cosmetics.Products.Toothpaste" project="Cosmetics" file="79776043-a70b-3f49-cdcc-86c58ceb62be">
+        <topic id="P:Cosmetics.Products.Toothpaste.Ingredients" project="Cosmetics" file="c8c49671-4ac8-18ad-42af-2f040f4ef80c" />
+      </topic>
+      <topic id="Methods.T:Cosmetics.Products.Toothpaste" project="Cosmetics" file="51efb554-d0ea-632f-0b68-4d1437679a9d">
+        <topic id="M:Cosmetics.Products.Toothpaste.Print" project="Cosmetics" file="ba23f37e-af40-a703-333c-ed2ad0d15d53" />
+      </topic>
+    </topic>
+  </topic>
+</topics>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml" />
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml" />
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering" Target="numbering.xml" />
+  <Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml" />
+  <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml" />
+  <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml" />
+  <Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header1.xml" />
+  <Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml" />
+  <Relationship Id="elId65FC0696" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/e5kfa45b" TargetMode="External" />
+  <Relationship Id="elId95F32CA8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/bsc2ak47" TargetMode="External" />
+  <Relationship Id="elIdCC3AD7D6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/4k87zsw7" TargetMode="External" />
+  <Relationship Id="elIdE95FE89B" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/zdee4b3y" TargetMode="External" />
+  <Relationship Id="elIdAF1FE0A" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/dfwy45w9" TargetMode="External" />
+  <Relationship Id="elId39DE4C29" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/42892f65" TargetMode="External" />
+  <Relationship Id="elId57A9046F" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/57ctke0a" TargetMode="External" />
+  <Relationship Id="elIdAACEFDC6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" TargetMode="External" />
+  <Relationship Id="elId34ACB4F4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" TargetMode="External" />
+  <Relationship Id="elId89BDAB97" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/8w0s4024" TargetMode="External" />
+  <Relationship Id="elIdDC753B71" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/td2s409d" TargetMode="External" />
+  <Relationship Id="elId8B1D63B9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/77c5xay2" TargetMode="External" />
+  <Relationship Id="elIdE4A455A3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/5y536ey6" TargetMode="External" />
+  <Relationship Id="elId18DFB5E9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/1k2e8atx" TargetMode="External" />
+  <Relationship Id="elIdE3C240F3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/ctys3981" TargetMode="External" />
+  <Relationship Id="elIdFC493499" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="http://msdn2.microsoft.com/en-us/library/a28wyd50" TargetMode="External" />
+  <Relationship Id="imgId63E042EF" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubclass.gif" />
+  <Relationship Id="imgIdCC221080" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubmethod.gif" />
+  <Relationship Id="imgId7DA6C86A" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/protmethod.gif" />
+  <Relationship Id="imgId44B7CF00" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/static.gif" />
+  <Relationship Id="imgId36A9AA6C" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubenumeration.gif" />
+  <Relationship Id="imgId4966B393" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubfield.gif" />
+  <Relationship Id="imgId2576CF30" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubinterface.gif" />
+  <Relationship Id="imgIdF5E97B58" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/pubproperty.gif" />
+</Relationships>

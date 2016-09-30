@@ -1,7 +1,7 @@
 # Telerik-Academy-Projects
 Projects and homework activity related with Telerik Academy courses 
 
-1. [C# Fundamentals](./C# Fundalentals)
+1. [C# Fundamentals](./C# Fundamentals)
 
 1. [C# Advanced](./C# Advanced)
 

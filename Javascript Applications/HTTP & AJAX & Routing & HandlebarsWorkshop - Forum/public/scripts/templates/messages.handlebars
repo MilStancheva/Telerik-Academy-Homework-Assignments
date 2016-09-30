@@ -1,0 +1,37 @@
+<div  class="container-messages col-xs-8">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Messages for <strong class="thread-title">{{result.title}}</strong>
+            <button class="btn-close-msg btn btn-danger btn-xs pull-right glyphicon glyphicon-remove" title="close"></button>
+            <button class="btn-collapse-msg btn btn-xs pull-right glyphicon glyphicon-chevron-up" title="collapse"></button>
+          </h3>
+        </div>
+        <div class="messages panel-body">
+            {{#if result.messages}}
+            {{#each result.messages}}
+            <div class="message">
+                <div>
+                    <p class="message-content">{{content}}</p>
+                    <p>
+                        <span>Created on </span>{{#if result.postDate}}{{result.postDate}}{{else}} unknown{{/if}}<span class="message-date"></span>
+                        by <a class="message-creator" href="#">{{#if username}}{{username}}{{else}} anonymous{{/if}}</a>
+                    </p>
+                </div>
+            </div>
+            {{/each}}
+            {{else}}
+                No messages yet :(
+            {{/if}}
+
+             <form class="" role="search">
+                <div class="input-group">
+                    <input id="input-add-message" class="input-add-message message-content form-control" placeholder="Add new message..." />
+                    <span class="input-group-btn">
+                        <a id="btn-add-message" href="#/threads/{{result.id}}/messages" class="btn-add-message btn btn-success " type="submit">Add</a>
+                    </span>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>

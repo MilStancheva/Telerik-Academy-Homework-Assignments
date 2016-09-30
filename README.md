@@ -1,4 +1,4 @@
-# Telerik-Academy-projects
+# Telerik-Academy-Projects
 Projects and homework activity related with Telerik Academy courses 
 
 1. [C# Fundamentals]

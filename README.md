@@ -1,16 +1,16 @@
 # Telerik-Academy-projects
 Projects and homework activity related with Telerik Academy courses 
 
-## C# Fundamentals
+1. [C# Fundamentals]
 
-## C# Advanced 
+1. [C# Advanced] 
 
-## Object Oriented programming with C#
+1. [Object Oriented programming with C#]
 
-## Unit Testing 
+1. [Unit Testing] 
 
-## High Quality Code Part 1
+1. [High Quality Code Part 1] 
 
-## High Quality Code Part 2 
+1. [High Quality Code Part 2](./High Quality Code Part 2)
 
 

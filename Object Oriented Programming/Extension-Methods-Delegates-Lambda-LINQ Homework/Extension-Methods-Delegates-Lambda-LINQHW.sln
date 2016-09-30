@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension-Methods-Delegates-Lambda-LINQ", "Extension-Methods-Delegates-Lambda-LINQ\Extension-Methods-Delegates-Lambda-LINQ.csproj", "{1C6286D1-F265-471F-BCBB-0DE8CBFA4EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleBySevenAndThree", "DivisibleBySevenAndThree - Problem 6\DivisibleBySevenAndThree.csproj", "{ECC5F83E-3C4D-454A-9225-677A61FAB18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestString", "LongestString\LongestString.csproj", "{6490DEBC-A0EA-4EBF-AF35-E70937107521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{9976C273-C536-4C27-8E7A-D1BB725B10B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C6286D1-F265-471F-BCBB-0DE8CBFA4EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6286D1-F265-471F-BCBB-0DE8CBFA4EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6286D1-F265-471F-BCBB-0DE8CBFA4EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6286D1-F265-471F-BCBB-0DE8CBFA4EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC5F83E-3C4D-454A-9225-677A61FAB18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC5F83E-3C4D-454A-9225-677A61FAB18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC5F83E-3C4D-454A-9225-677A61FAB18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC5F83E-3C4D-454A-9225-677A61FAB18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6490DEBC-A0EA-4EBF-AF35-E70937107521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6490DEBC-A0EA-4EBF-AF35-E70937107521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6490DEBC-A0EA-4EBF-AF35-E70937107521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6490DEBC-A0EA-4EBF-AF35-E70937107521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9976C273-C536-4C27-8E7A-D1BB725B10B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9976C273-C536-4C27-8E7A-D1BB725B10B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9976C273-C536-4C27-8E7A-D1BB725B10B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9976C273-C536-4C27-8E7A-D1BB725B10B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

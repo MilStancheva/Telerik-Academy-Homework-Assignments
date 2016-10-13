@@ -1,0 +1,20 @@
+1. What does the XML language represent? What is it used for?
+
+1.1 What does the XML language represent?
+
+XML (eXtensible Markup Language) is a universal language (notation) for describing structured data using text with tags. The data is stored together with the meta-data about it. It is used to describe other languages (formats) for data representation
+XML looks like HTML but there are differences. 
+XML is a text based language, uses tags and attributes. 
+There is a Worldwide standard supported by the W3C - www.w3c.org.
+XML is independent of the hardware platform, operating system or programming languages.
+
+1.2 What is it used for?
+
+XML is used for storaging of any structured data. Its greatest avdantage is that it is human readable. Data comes with self-describing meta-data. Custom XML-based languages can be developed for certain applications. Information can be exchanged between different systems with ease and Unicode is fully supported. 
+
+Disadvantages of XML:
+XML data is bigger (takes more space) than in binary formats
+More memory consumption, more network traffic, more hard-disk space
+Decreased performance
+Need of parsing / constructing the XML tags
+XML is not suitable for all kinds of data - e.g. graphics, images and video clips. 

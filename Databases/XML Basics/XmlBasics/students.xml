@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xmlns="urn:students"
+           name="Students">
+  <student>
+    <fistName>Peter</fistName>
+    <lastName>Petrov</lastName>
+    <gender>male</gender>
+    <birthDate>01.01.1990</birthDate>
+    <phone>359889999999</phone>
+    <email>pesho@gmail.com</email>
+    <specialty>Software Engeneering</specialty>
+    <facultyNumber>1234</facultyNumber>
+    <teachersEndorsements>Great work!</teachersEndorsements>
+    <exams>
+      <exam>
+        <examName>C#</examName>
+        <tutor>Martin</tutor>
+        <date>2016-11-08</date>
+        <examScore>5</examScore>
+        <score>6</score>
+      </exam>
+      <exam>
+        <examName>Javascript</examName>
+        <tutor>Doncho</tutor>
+        <date>2016-10-15</date>
+        <examScore>5</examScore>
+        <score>4</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <fistName>Geri</fistName>
+    <lastName>Ivanova</lastName>
+    <gender>female</gender>
+    <birthDate>02.01.1990</birthDate>
+    <phone>359889999988</phone>
+    <email>geri@gmail.com</email>
+    <specialty>Software Engeneering</specialty>
+    <facultyNumber>1235</facultyNumber>
+    <teachersEndorsements>Nice work!</teachersEndorsements>
+    <exams>
+      <exam>
+        <examName>C#</examName>
+        <tutor>Martin</tutor>
+        <date>2016-11-08</date>
+        <examScore>5</examScore>
+        <score>5</score>
+      </exam>
+      <exam>
+        <examName>Javascript</examName>
+        <tutor>Doncho</tutor>
+        <date>2016-12-06</date>
+        <examScore>5</examScore>
+        <score>6</score>
+      </exam>
+    </exams>
+  </student>
+</students>

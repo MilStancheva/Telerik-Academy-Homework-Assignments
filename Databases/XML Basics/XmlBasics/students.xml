@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<students  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-           xmlns="urn:students"
-           name="Students">
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:students="urn:students" name="Students">
   <student>
-    <fistName>Peter</fistName>
+    <firstName>Peter</firstName>
     <lastName>Petrov</lastName>
     <gender>male</gender>
     <birthDate>01.01.1990</birthDate>
     <phone>359889999999</phone>
     <email>pesho@gmail.com</email>
-    <specialty>Software Engeneering</specialty>
+    <specialty>QA</specialty>
     <facultyNumber>1234</facultyNumber>
     <teachersEndorsements>Great work!</teachersEndorsements>
     <exams>
@@ -30,13 +30,13 @@
     </exams>
   </student>
   <student>
-    <fistName>Geri</fistName>
+    <firstName>Geri</firstName>
     <lastName>Ivanova</lastName>
     <gender>female</gender>
     <birthDate>02.01.1990</birthDate>
     <phone>359889999988</phone>
     <email>geri@gmail.com</email>
-    <specialty>Software Engeneering</specialty>
+    <specialty>QA</specialty>
     <facultyNumber>1235</facultyNumber>
     <teachersEndorsements>Nice work!</teachersEndorsements>
     <exams>
@@ -53,6 +53,60 @@
         <date>2016-12-06</date>
         <examScore>5</examScore>
         <score>6</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <firstName>Krisi</firstName>
+    <lastName>Georgieva</lastName>
+    <gender>female</gender>
+    <birthDate>05.03.1990</birthDate>
+    <phone>359889999966</phone>
+    <email>krisi@gmail.com</email>
+    <specialty>Mobile Applications</specialty>
+    <facultyNumber>1236</facultyNumber>
+    <teachersEndorsements>Nice work!</teachersEndorsements>
+    <exams>
+      <exam>
+        <examName>C#</examName>
+        <tutor>Martin</tutor>
+        <date>2016-11-08</date>
+        <examScore>5</examScore>
+        <score>5</score>
+      </exam>
+      <exam>
+        <examName>Javascript</examName>
+        <tutor>Doncho</tutor>
+        <date>2016-12-06</date>
+        <examScore>5</examScore>
+        <score>6</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <firstName>Evgeni</firstName>
+    <lastName>Dimitrov</lastName>
+    <gender>male</gender>
+    <birthDate>03.02.1989</birthDate>
+    <phone>359889999977</phone>
+    <email>evgeni@gmail.com</email>
+    <specialty>Web Applications</specialty>
+    <facultyNumber>1237</facultyNumber>
+    <teachersEndorsements>Good</teachersEndorsements>
+    <exams>
+      <exam>
+        <examName>C#</examName>
+        <tutor>Martin</tutor>
+        <date>2016-11-08</date>
+        <examScore>4</examScore>
+        <score>5</score>
+      </exam>
+      <exam>
+        <examName>Javascript</examName>
+        <tutor>Doncho</tutor>
+        <date>2016-12-06</date>
+        <examScore>5</examScore>
+        <score>5</score>
       </exam>
     </exams>
   </student>

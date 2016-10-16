@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:catalogue="urn:catalogue" name="Audio Catalogue">
+  <album>
+    <name>The Downward Spiral</name>
+    <artist>NIN</artist>
+    <year>1994</year>
+    <producer>Nothing Records</producer>
+    <price>19.90</price>
+    <songs>
+      <song>
+        <title>March of the Pigs</title>
+        <duration>2:58</duration>
+      </song>
+      <song>
+        <title>Closer</title>
+        <duration>6:26</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Welcome Oblivion</name>
+    <artist>How to Destroy Angels</artist>
+    <year>2013</year>
+    <producer>Columbia Records</producer>
+    <price>19.80</price>
+    <songs>
+      <song>
+        <title>Ice Age</title>
+        <duration>6:53</duration>
+      </song>
+      <song>
+        <title>Strings and Attractors</title>
+        <duration>4:28</duration>
+      </song>
+      <song>
+        <title>We Fade Away</title>
+        <duration>6:41</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

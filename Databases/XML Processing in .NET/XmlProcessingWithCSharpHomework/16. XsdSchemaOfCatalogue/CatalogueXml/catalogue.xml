@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:catalogue="urn:catalogue" name="Audio Catalogue">
+  <album>
+    <name>The Downward Spiral</name>
+    <artist>NIN</artist>
+    <year>1994</year>
+    <producer>Nothing Records</producer>
+    <price>19.90</price>
+    <songs>
+      <song>
+        <title>March of the Pigs</title>
+        <duration>2:58</duration>
+      </song>
+      <song>
+        <title>Closer</title>
+        <duration>6:26</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>The Fragile</name>
+    <artist>NIN</artist>
+    <year>2002</year>
+    <producer>Nothing Records</producer>
+    <price>23.00</price>
+    <songs>
+      <song>
+        <title>The Day the World Went Away</title>
+        <duration>4:33</duration>
+      </song>
+      <song>
+        <title>La Mer</title>
+        <duration>4:37</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Lateralus</name>
+    <artist>Tool</artist>
+    <year>2005</year>
+    <producer>Volcano Entertainment</producer>
+    <price>21.98</price>
+    <songs>
+      <song>
+        <title>The Grudge</title>
+        <duration>8:36</duration>
+      </song>
+      <song>
+        <title>Schism</title>
+        <duration>6:47</duration>
+      </song>
+      <song>
+        <title>Lateralus</title>
+        <duration>9:24</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Welcome Oblivion</name>
+    <artist>How to Destroy Angels</artist>
+    <year>2013</year>
+    <producer>Columbia Records</producer>
+    <price>19.80</price>
+    <songs>
+      <song>
+        <title>Ice Age</title>
+        <duration>6:53</duration>
+      </song>
+      <song>
+        <title>Strings and Attractors</title>
+        <duration>4:28</duration>
+      </song>
+      <song>
+        <title>We Fade Away</title>
+        <duration>6:41</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

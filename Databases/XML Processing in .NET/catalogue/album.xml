@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>
+			The Downward Spiral
+		</name>
+		<artist>
+			NIN
+		</artist>
+	</album>
+	<album>
+		<name>
+			The Fragile
+		</name>
+		<artist>
+			NIN
+		</artist>
+	</album>
+	<album>
+		<name>
+			Lateralus
+		</name>
+		<artist>
+			Tool
+		</artist>
+	</album>
+	<album>
+		<name>
+			Welcome Oblivion
+		</name>
+		<artist>
+			How to Destroy Angels
+		</artist>
+	</album>
+</albums>

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NumberOfRowsInNorthwindCategoriesTable", "01.NumberOfRowsInNorthwindCategoriesTable\01.NumberOfRowsInNorthwindCategoriesTable.csproj", "{93A81F83-FA8E-4405-AC8F-BB272BC99C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RetrieveTheNameAndDescriptionOfCategories", "02.RetrieveTheNameAndDescriptionOfCategories\02.RetrieveTheNameAndDescriptionOfCategories.csproj", "{5EC6DA9D-14B8-4C63-9485-988BEDBF4CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ProductsInCategories", "03.ProductsInCategories\03.ProductsInCategories.csproj", "{7678D869-4CE3-4A97-A520-4F9AE78F1FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AddNewProductInProductsTable", "04.AddNewProductInProductsTable\04.AddNewProductInProductsTable.csproj", "{B13AC387-F46B-4B32-9801-BC21F854D1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.RetrievePicturesFromCategoryTableAndSaveThemInFiles", "05.RetrievePicturesFromCategoryTableAndSaveThemInFiles\05.RetrievePicturesFromCategoryTableAndSaveThemInFiles.csproj", "{0C0F89C1-F81B-47C8-BDDC-2B03A6708DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ReadScoresFromExcelFile", "06.ReadScoresFromExcelFile\06.ReadScoresFromExcelFile.csproj", "{84087F69-684F-4168-9825-F7A760DCD430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.AppendNewRowsToExcelTable", "07.AppendNewRowsToExcelTable\07.AppendNewRowsToExcelTable.csproj", "{BF37DB6C-9CDD-4D99-B39F-D28197818217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.FindProductsWithString", "08.FindProductsWithString\08.FindProductsWithString.csproj", "{7558967D-2099-4B97-B35F-B6EB11B88C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ListSearchAddBooksInMySql", "09.ListSearchAddBooksInMySql\09.ListSearchAddBooksInMySql.csproj", "{EF220CB4-A26B-42E3-82A0-835E09DE8858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ListSearchAddBooksWithSqlLite", "10.ListSearchAddBooksWithSqlLite\10.ListSearchAddBooksWithSqlLite.csproj", "{1DF0EBC8-7D12-49F8-BDCE-8DE447D3A381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A81F83-FA8E-4405-AC8F-BB272BC99C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A81F83-FA8E-4405-AC8F-BB272BC99C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A81F83-FA8E-4405-AC8F-BB272BC99C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A81F83-FA8E-4405-AC8F-BB272BC99C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC6DA9D-14B8-4C63-9485-988BEDBF4CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC6DA9D-14B8-4C63-9485-988BEDBF4CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC6DA9D-14B8-4C63-9485-988BEDBF4CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC6DA9D-14B8-4C63-9485-988BEDBF4CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7678D869-4CE3-4A97-A520-4F9AE78F1FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7678D869-4CE3-4A97-A520-4F9AE78F1FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7678D869-4CE3-4A97-A520-4F9AE78F1FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7678D869-4CE3-4A97-A520-4F9AE78F1FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13AC387-F46B-4B32-9801-BC21F854D1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13AC387-F46B-4B32-9801-BC21F854D1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13AC387-F46B-4B32-9801-BC21F854D1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13AC387-F46B-4B32-9801-BC21F854D1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0F89C1-F81B-47C8-BDDC-2B03A6708DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0F89C1-F81B-47C8-BDDC-2B03A6708DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0F89C1-F81B-47C8-BDDC-2B03A6708DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0F89C1-F81B-47C8-BDDC-2B03A6708DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84087F69-684F-4168-9825-F7A760DCD430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84087F69-684F-4168-9825-F7A760DCD430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84087F69-684F-4168-9825-F7A760DCD430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84087F69-684F-4168-9825-F7A760DCD430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF37DB6C-9CDD-4D99-B39F-D28197818217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF37DB6C-9CDD-4D99-B39F-D28197818217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF37DB6C-9CDD-4D99-B39F-D28197818217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF37DB6C-9CDD-4D99-B39F-D28197818217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7558967D-2099-4B97-B35F-B6EB11B88C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7558967D-2099-4B97-B35F-B6EB11B88C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7558967D-2099-4B97-B35F-B6EB11B88C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7558967D-2099-4B97-B35F-B6EB11B88C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF220CB4-A26B-42E3-82A0-835E09DE8858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF220CB4-A26B-42E3-82A0-835E09DE8858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF220CB4-A26B-42E3-82A0-835E09DE8858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF220CB4-A26B-42E3-82A0-835E09DE8858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF0EBC8-7D12-49F8-BDCE-8DE447D3A381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF0EBC8-7D12-49F8-BDCE-8DE447D3A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF0EBC8-7D12-49F8-BDCE-8DE447D3A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF0EBC8-7D12-49F8-BDCE-8DE447D3A381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

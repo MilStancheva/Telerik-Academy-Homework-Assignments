@@ -16,3 +16,5 @@ Projects and homework activity related with Telerik Academy courses
 1. [Javascript Applications](./Javascript%20Applications)
 
 1. [Databases](./Databases)
+
+1. [Data Structures & Algorithms](./Data%20Structures%26Аlgorithms)

@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Problem_5
+namespace Problem_5_RemoveNegativeNumbersFromSequence
 {
     public class Program
     {

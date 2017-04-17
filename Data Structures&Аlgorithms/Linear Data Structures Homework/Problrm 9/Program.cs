@@ -15,7 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Problem_9
+namespace Problem_9_PrintSequenceWithQueue
 {
     public class Program
     {

@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Problem_4
+namespace Problem_4_LongestSubsequenceOfEqualNumbers
 {
     public class Program
     {

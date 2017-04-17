@@ -8,13 +8,53 @@
     Example: N = 5, M = 16
     Sequence: 5 → 7 → 8 → 16
  */
-namespace Problem_10
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Problem_10_ShortestSequenceOfOperations
 {
     public class Program
     {
         public static void Main()
         {
-            //TODO
+            Console.WriteLine("Please, enter a start number N:");
+            int startNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please, enter an end number M:");
+            int endNumber = int.Parse(Console.ReadLine());
+
+            Queue<int> operations = new Queue<int>();
+
+            while (startNumber <= endNumber)
+            {
+                operations.Enqueue(endNumber);
+
+                if (endNumber / 2 >= startNumber)
+                {
+                    if (endNumber % 2 == 0)
+                    {
+                        endNumber /= 2;
+                    }
+                    else
+                    {
+                        endNumber--;
+                    }
+                }
+                else
+                {
+                    if (endNumber - 2 >= startNumber)
+                    {
+                        endNumber -= 2;
+                    }
+                    else
+                    {
+                        endNumber--;
+                    }
+                }
+            }
+
+            Console.WriteLine(string.Join(" -> ", operations.Reverse()));            
         }
     }
 }

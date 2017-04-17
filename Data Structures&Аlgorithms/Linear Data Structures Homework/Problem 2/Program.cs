@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Problem_2
+namespace Problem_2_ReverseSequenceUsingStack
 {
     public class Program
     {

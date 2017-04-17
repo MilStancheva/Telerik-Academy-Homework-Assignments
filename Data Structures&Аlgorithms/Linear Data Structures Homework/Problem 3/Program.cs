@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Problem_3
+namespace Problem_3_SortSequenceInIncreasingOrder
 {
     public class Program
     {

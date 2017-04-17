@@ -8,7 +8,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Problem_7
+namespace Problem_7_FindNumberOfOccurancesInSequence
 {
     public class Program
     {

@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Problem_8
+namespace Problem_8_FindTheMajorantOfASequence
 {
     public class Program
     {

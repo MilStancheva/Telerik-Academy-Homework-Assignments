@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Problem_1
+namespace Problem_1_SumAndAverageOfSequence
 {
     public class Program
     {

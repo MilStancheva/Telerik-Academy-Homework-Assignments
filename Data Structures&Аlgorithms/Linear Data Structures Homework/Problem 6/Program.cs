@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Problem_6
+namespace Problem_6_RemoveFromSequenceNumbersThatOccurOddNumberOfTimes
 {
     public class Program
     {

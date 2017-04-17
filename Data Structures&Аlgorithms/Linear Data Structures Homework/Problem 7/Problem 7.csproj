@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8BE06AFE-0863-48F8-878B-CF5CBFFACD43}</ProjectGuid>
+    <ProjectGuid>{D208E4E4-A7ED-4483-9571-4208564A0CA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem_11__Implement_LinkedList</RootNamespace>
-    <AssemblyName>Problem 11- Implement LinkedList</AssemblyName>
+    <RootNamespace>Problem_7</RootNamespace>
+    <AssemblyName>Problem 7</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomLinkedList.cs" />
-    <Compile Include="CustomLinkedListNode.cs" />
-    <Compile Include="StartUp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

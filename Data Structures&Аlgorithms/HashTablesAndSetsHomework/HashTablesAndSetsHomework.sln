@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2 - ExtractElements
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3 - NumberOfOccurrencesInAText", "Problem 3 - NumberOfOccurrencesInAText\Problem 3 - NumberOfOccurrencesInAText.csproj", "{FDB3DD91-8609-4663-BA41-48BB65F3D50F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4 - HashTableImplementation", "Problem 4 - HashTableImplementation\Problem 4 - HashTableImplementation.csproj", "{FDBC16EE-C6CD-4333-A51A-CE4CB0AC9B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5 - HashSetImplementation", "Problem 5 - HashSetImplementation\Problem 5 - HashSetImplementation.csproj", "{E7F5B90D-1F9C-4EF8-93AF-56C73C9DAFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableImplementation.Tests", "HashTableImplementation.Tests\HashTableImplementation.Tests.csproj", "{4543BE70-F763-419E-B1CD-9F976FDB7815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{FDB3DD91-8609-4663-BA41-48BB65F3D50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB3DD91-8609-4663-BA41-48BB65F3D50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDB3DD91-8609-4663-BA41-48BB65F3D50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBC16EE-C6CD-4333-A51A-CE4CB0AC9B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBC16EE-C6CD-4333-A51A-CE4CB0AC9B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBC16EE-C6CD-4333-A51A-CE4CB0AC9B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBC16EE-C6CD-4333-A51A-CE4CB0AC9B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F5B90D-1F9C-4EF8-93AF-56C73C9DAFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F5B90D-1F9C-4EF8-93AF-56C73C9DAFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F5B90D-1F9C-4EF8-93AF-56C73C9DAFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F5B90D-1F9C-4EF8-93AF-56C73C9DAFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

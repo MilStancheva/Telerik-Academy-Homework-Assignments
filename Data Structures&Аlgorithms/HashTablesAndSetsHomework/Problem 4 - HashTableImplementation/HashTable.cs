@@ -36,18 +36,7 @@ namespace Problem_4___HashTableImplementation
         {
             get
             {
-                var keys = new List<K>();
-                foreach (var keyCollection in this.values)
-                {
-                    if (keyCollection != null)
-                    {
-                        foreach (var pair in keyCollection)
-                        {
-                            keys.Add(pair.Key);
-                        }
-                    }                    
-                }
-
+                var keys = this.GetKeys();                
                 return keys;
             }
         }
@@ -155,37 +144,6 @@ namespace Problem_4___HashTableImplementation
             this.Count--;
         }
 
-        private int HashKey(K key)
-        {
-            var hash = key.GetHashCode();
-            hash %= this.Capacity;
-            hash = Math.Abs(hash);
-
-            return hash;
-        }
-
-        private void ResizeAndReAddValues()
-        {
-            // cache old values
-            var cachedValues = this.values;
-
-            // resize
-            this.values = new LinkedList<KeyValuePair<K, V>>[this.Capacity * 2];
-
-            // add values
-            this.Count = 0;
-            foreach (var valueCollection in cachedValues)
-            {
-                if (valueCollection != null)
-                {
-                    foreach (var value in valueCollection)
-                    {
-                        this.Add(value.Key, value.Value);
-                    }
-                }
-            }
-        }
-
         public IEnumerator<KeyValuePair<K, V>> GetEnumerator()
         {
             foreach (var valueCollection in this.values)
@@ -203,6 +161,51 @@ namespace Problem_4___HashTableImplementation
         IEnumerator IEnumerable.GetEnumerator()
         {
             return this.GetEnumerator();
+        }
+
+        private int HashKey(K key)
+        {
+            var hash = key.GetHashCode();
+            hash %= this.Capacity;
+            hash = Math.Abs(hash);
+
+            return hash;
+        }
+
+        private void ResizeAndReAddValues()
+        {
+            var cachedValues = this.values;
+
+            this.values = new LinkedList<KeyValuePair<K, V>>[this.Capacity * 2];
+
+            this.Count = 0;
+            foreach (var valueCollection in cachedValues)
+            {
+                if (valueCollection != null)
+                {
+                    foreach (var value in valueCollection)
+                    {
+                        this.Add(value.Key, value.Value);
+                    }
+                }
+            }
+        }
+
+        private List<K> GetKeys()
+        {
+            var keys = new List<K>();
+            foreach (var keyCollection in this.values)
+            {
+                if (keyCollection != null)
+                {
+                    foreach (var pair in keyCollection)
+                    {
+                        keys.Add(pair.Key);
+                    }
+                }
+            }
+
+            return keys;
         }
     }
 }

@@ -57,8 +57,10 @@
     <Compile Include="Add_Should.cs" />
     <Compile Include="Clear_Should.cs" />
     <Compile Include="ContainsKey_Should.cs" />
+    <Compile Include="Find_Should.cs" />
     <Compile Include="HashTableConstructor_Should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remove_Should.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5 - HashSetImplemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableImplementation.Tests", "HashTableImplementation.Tests\HashTableImplementation.Tests.csproj", "{4543BE70-F763-419E-B1CD-9F976FDB7815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashedSetImplementation.Tests", "HashedSetImplementation.Tests\HashedSetImplementation.Tests.csproj", "{896B39E4-68DA-47C9-9659-560790653E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4543BE70-F763-419E-B1CD-9F976FDB7815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896B39E4-68DA-47C9-9659-560790653E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896B39E4-68DA-47C9-9659-560790653E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896B39E4-68DA-47C9-9659-560790653E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896B39E4-68DA-47C9-9659-560790653E41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,7 +34,7 @@ namespace Problem_5___HashSetImplementation
 
         public void Clear()
         {
-            this.values = null;
+            this.values = new HashTable<int, T>();
             this.count = 0;
         }
 

@@ -11,7 +11,7 @@ namespace SortingHomework.Tests
         [Test]
         public void QuickSort_ShouldThrwoArgumentNullException_WhenCollectionIsNull()
         {
-            var quickSorter = new Quicksorter<int>();
+            var quickSorter = new QuickSorter<int>();
 
             Assert.Throws<ArgumentNullException>(() => { quickSorter.Sort(null); });
         }
@@ -20,7 +20,7 @@ namespace SortingHomework.Tests
         public void QuickSort_ShouldSortACollection_WhenValidCollectionIsPassed()
         {
             var collection = CollectionsUtils.GenerateCollection(10);
-            var quickSorter = new Quicksorter<int>();
+            var quickSorter = new QuickSorter<int>();
 
             quickSorter.Sort(collection);
 
@@ -31,7 +31,7 @@ namespace SortingHomework.Tests
         public void QuickSort_ShouldSortACollection_WhenCollectionWithTwoElementsIsPassed()
         {
             var collection = CollectionsUtils.GenerateCollection(2);
-            var quickSorter = new Quicksorter<int>();
+            var quickSorter = new QuickSorter<int>();
 
             quickSorter.Sort(collection);
 
@@ -42,7 +42,7 @@ namespace SortingHomework.Tests
         public void QuickSort_ShouldReturnTheElement_WhenCollectionWithOneElementsIsPassed()
         {
             var collection = CollectionsUtils.GenerateCollection(1);
-            var quickSorter = new Quicksorter<int>();
+            var quickSorter = new QuickSorter<int>();
 
             quickSorter.Sort(collection);
 
@@ -53,7 +53,7 @@ namespace SortingHomework.Tests
         public void QuickSort_ShouldSortCollection_WhenCollectionWithAGreatNumberOfElementsIsPassed()
         {
             var collection = CollectionsUtils.GenerateCollection(1000000);
-            var quickSorter = new Quicksorter<int>();
+            var quickSorter = new QuickSorter<int>();
 
             quickSorter.Sort(collection);
 

@@ -17,11 +17,11 @@ namespace SortingHomework
             collection.PrintAllItemsOnConsole();
             Console.WriteLine();
 
-            //collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
-            //Console.WriteLine("Quicksorter result:");
-            //collection.Sort(new Quicksorter<int>());
-            //collection.PrintAllItemsOnConsole();
-            //Console.WriteLine();
+            collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
+            Console.WriteLine("QuickSorter result:");
+            collection.Sort(new QuickSorter<int>());
+            collection.PrintAllItemsOnConsole();
+            Console.WriteLine();
 
             //collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
             //Console.WriteLine("MergeSorter result:");

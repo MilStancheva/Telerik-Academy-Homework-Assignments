@@ -15,7 +15,7 @@ namespace SortingHomework
                 throw new ArgumentNullException(collectionCannotBeNullExeptionMessage);
             }
 
-            IList<T> sortedCollection = this.QuickSort(collection);
+            IList<T> sortedCollection = this.QuickSort(collection, true);
             collection.Clear();
             foreach (T item in sortedCollection)
             {

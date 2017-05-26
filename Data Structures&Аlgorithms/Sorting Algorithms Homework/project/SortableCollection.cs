@@ -6,6 +6,7 @@ namespace SortingHomework
     public class SortableCollection<T> where T : IComparable<T>
     {
         private readonly IList<T> items;
+        private string itemCannotBeNullExceptionMessage = "Item cannot be null";
 
         public SortableCollection()
         {
@@ -32,7 +33,23 @@ namespace SortingHomework
 
         public bool LinearSearch(T item)
         {
-            throw new NotImplementedException();
+            if (item == null)
+            {
+                throw new ArgumentNullException(itemCannotBeNullExceptionMessage);
+            }
+
+            var result = false;
+
+            for (int i = 0; i < this.Items.Count; i++)
+            {
+                if (this.Items[i].CompareTo(item) == 0)
+                {
+                    result =  true;
+                    break;
+                }
+            }
+
+            return result;
         }
 
         public bool BinarySearch(T item)

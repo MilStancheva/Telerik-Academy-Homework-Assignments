@@ -35,7 +35,7 @@ namespace SortingHomework
         {
             if (item == null)
             {
-                throw new ArgumentNullException(itemCannotBeNullExceptionMessage);
+                throw new ArgumentNullException(this.itemCannotBeNullExceptionMessage);
             }
 
             var result = false;
@@ -54,12 +54,69 @@ namespace SortingHomework
 
         public bool BinarySearch(T item)
         {
-            throw new NotImplementedException();
+            if (item == null)
+            {
+                throw new ArgumentNullException(this.itemCannotBeNullExceptionMessage);
+            }
+
+            this.Sort(new QuickSorter<T>());
+
+            int minIndex = 0;
+            int maxIndex = this.Items.Count - 1;
+            int middleIndex = 0;
+            bool isFound = false;
+
+            if (this.Items[minIndex].CompareTo(item) == 0)
+            {
+                isFound = true;
+                return isFound;
+            }
+            else if (this.Items[maxIndex].CompareTo(item) == 0)
+            {
+                isFound = true;
+                return isFound;
+            }
+            else
+            {
+                while (minIndex.CompareTo(maxIndex) <= 0)
+                {
+                    middleIndex = minIndex + (maxIndex - minIndex) / 2;
+
+                    if (this.Items[middleIndex].CompareTo(item) == 0)
+                    {
+                        isFound = true;
+                        return isFound;
+                    }
+                    else if (this.Items[middleIndex].CompareTo(item) < 0)
+                    {
+                        maxIndex = middleIndex - 1;
+                    }
+                    else
+                    {
+                        minIndex = middleIndex + 1;
+                    }
+                }
+            }
+
+            return isFound;
         }
 
         public void Shuffle()
         {
-            throw new NotImplementedException();
+            Random random = new Random();
+
+            for (int i = 0; i < this.Items.Count - 1; i++)
+            {
+                int randomIndex = random.Next(i + 1, this.Items.Count);
+                Swap(this.Items, i, randomIndex);
+            }
+        }
+
+        private void Swap(IList<T> items, int oldIndex, int newIndex)
+        {
+            T temp = items[oldIndex];
+            items[oldIndex] = items[newIndex];
+            items[newIndex] = temp;
         }
 
         public void PrintAllItemsOnConsole()

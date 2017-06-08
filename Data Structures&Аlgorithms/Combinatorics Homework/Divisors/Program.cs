@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Divisors
 {
     public class Program
     {
-        private static List<int[]> allPermutations = new List<int[]>();
+        private static List<List<int>> allPermutations = new List<List<int>>();
         private static List<int> allNumbers = new List<int>();
 
         public static void Main()
@@ -21,7 +22,7 @@ namespace Divisors
             Array.Sort(digits);
             PermuteRep(digits, 0, digits.Length, perm =>
             {
-                allPermutations.Add(perm);
+                allPermutations.Add(perm.ToList());
             });
 
             AddNumbersPermutationsToAllNumbers();
@@ -52,10 +53,7 @@ namespace Divisors
         {
             for (int i = 0; i < allPermutations.Count; i++)
             {
-                Console.WriteLine(string.Join(" ", allPermutations[i]));
-
                 var number = GenerateNumber(allPermutations[i]);
-                Console.WriteLine(number);
                 allNumbers.Add(number);
             }
         }
@@ -77,7 +75,6 @@ namespace Divisors
         private static void PermuteRep(int[] arr, int start, int n, Action<int[]> action)
         {
             action(arr);
-            Console.WriteLine(string.Join(", ", arr));
             for (int left = n - 2; left >= start; left--)
             {
                 for (int right = left + 1; right < n; right++)
@@ -106,11 +103,11 @@ namespace Divisors
             rightElement = oldValue;
         }
 
-        private static int GenerateNumber(int[] permutation)
+        private static int GenerateNumber(List<int> permutation)
         {
             int number = 0;
             string numberAsString = string.Empty;
-            for (int i = 0; i < permutation.Length; i++)
+            for (int i = 0; i < permutation.Count; i++)
             {
                 numberAsString += permutation[i].ToString();
             }

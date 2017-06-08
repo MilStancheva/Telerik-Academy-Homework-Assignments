@@ -25,24 +25,27 @@ namespace Divisors
             });
 
             AddNumbersPermutationsToAllNumbers();
-            int minCountOfDivisors = FindTheNumberWithTheSmallestCountOfDivisors();
-            Console.WriteLine(minCountOfDivisors);
+            int numberWithMinDivisors = FindTheNumberWithTheSmallestCountOfDivisors();
+            Console.WriteLine(numberWithMinDivisors);
                      
         }
 
         private static int FindTheNumberWithTheSmallestCountOfDivisors()
         {
             var minCountOfDivisors = int.MaxValue;
+            int answer = 0;
+
             for (int i = 0; i < allNumbers.Count; i++)
             {
                 var count = CalculateNumberOfDivisors(allNumbers[i]);
                 if (count < minCountOfDivisors)
                 {
                     minCountOfDivisors = count;
+                    answer = allNumbers[i];
                 }
             }
 
-            return minCountOfDivisors;
+            return answer;
         }
 
         private static void AddNumbersPermutationsToAllNumbers()

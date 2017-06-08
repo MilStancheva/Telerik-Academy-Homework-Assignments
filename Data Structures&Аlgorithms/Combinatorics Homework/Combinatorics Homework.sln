@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorfulBunnies", "Colorful
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisors", "Divisors\Divisors.csproj", "{DAD295CF-2A48-4F47-941C-72FF69F8FA97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceOfColorfulBalls", "SequenceOfColorfulBalls\SequenceOfColorfulBalls.csproj", "{633F140C-43FE-4BFD-A4E1-AA703E0EA34D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DAD295CF-2A48-4F47-941C-72FF69F8FA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD295CF-2A48-4F47-941C-72FF69F8FA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD295CF-2A48-4F47-941C-72FF69F8FA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633F140C-43FE-4BFD-A4E1-AA703E0EA34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633F140C-43FE-4BFD-A4E1-AA703E0EA34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633F140C-43FE-4BFD-A4E1-AA703E0EA34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633F140C-43FE-4BFD-A4E1-AA703E0EA34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
